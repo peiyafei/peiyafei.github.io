@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ExampleSite</title>
+    <link>https://peiyafei.github.io/</link>
+    <description>Recent content on ExampleSite</description>
+    <image>
+      <url>https://peiyafei.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://peiyafei.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 09 Feb 2022 22:28:55 +0800</lastBuildDate><atom:link href="https://peiyafei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>本站说明</title>
+      <link>https://peiyafei.github.io/post/%E6%9C%AC%E7%AB%99%E8%AF%B4%E6%98%8E/</link>
+      <pubDate>Wed, 09 Feb 2022 22:28:55 +0800</pubDate>
+      
+      <guid>https://peiyafei.github.io/post/%E6%9C%AC%E7%AB%99%E8%AF%B4%E6%98%8E/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 QQ交流群：985842713</description>
+    </item>
+    
+  </channel>
+</rss>
