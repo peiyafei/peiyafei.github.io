@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>FreeBSD</title>
+    <title>Qt</title>
     <link>https://peiyafei.github.io/</link>
-    <description>Recent content on FreeBSD</description>
+    <description>Recent content on Qt</description>
     <image>
       <url>https://peiyafei.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://peiyafei.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Feb 2022 22:28:55 +0800</lastBuildDate><atom:link href="https://peiyafei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Feb 2022 11:25:53 +0800</lastBuildDate><atom:link href="https://peiyafei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qt简介</title>
+      <link>https://peiyafei.github.io/post/qt%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Thu, 10 Feb 2022 11:25:53 +0800</pubDate>
+      
+      <guid>https://peiyafei.github.io/post/qt%E7%AE%80%E4%BB%8B/</guid>
+      <description>Qt简介 Qt 是一个1991年由Qt Company开发的跨平台C++图形用户界面应用程序开发框架。它既可以开发GUI程序，也可用于开发非GUI程序，比如控制台工具和服务器。Qt是面向对象的框架，使用特殊的代码生成扩展（称为元对象编译器(Meta Object Compiler, moc)）以及一些宏，Qt很容易扩展，并且允许真正地组件编程。</description>
+    </item>
+    
     <item>
       <title>本站说明</title>
       <link>https://peiyafei.github.io/post/%E6%9C%AC%E7%AB%99%E8%AF%B4%E6%98%8E/</link>
       <pubDate>Wed, 09 Feb 2022 22:28:55 +0800</pubDate>
       
       <guid>https://peiyafei.github.io/post/%E6%9C%AC%E7%AB%99%E8%AF%B4%E6%98%8E/</guid>
-      <description>FreeBSD 是一个适用于现代服务器、桌面与嵌入式 平台 的操作系统， 由一个庞大的 开发人员团队 持续开发超过三十年。 FreeBSD 先进的网络、安全性和存储方面的特色使得它成为许多 大型网站 以及最普遍的嵌入式网络与存储设备的平台选择。 QQ交流群：819308871</description>
+      <description>专注于Qt技术开发及分享更多技术教程。 QQ交流群：584093747</description>
     </item>
     
   </channel>
