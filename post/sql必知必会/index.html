@@ -18,7 +18,10 @@ DBMS：数据库管理系统
  唯一性 不允许为NULL值 不允许修改或更新 不能重用（不能删除之后赋予新行）  1.2 什么是SQL SQL：Structured Query Language（结构化查询语言）
 第二章 检索数据 2.1 SELECT 语句 关键字(keyword)：作为SQL组成部分的保留字，不能用作为表或列的名字。
 SELECT检索数据，必须至少给出两条信息：选择什么，从什么地方选择
-2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; ">
+2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; 提示：
+ 建议SQL语句结尾总是加上分号 SQL语句不区分大小写 在处理SQL语句时，所有的空格都会被忽略，SQL语句可以写成一行或多行  2.3 检索多个列 检索多个列，在多个列名之间用逗号隔开（最后一列不能加）
+SELECT prod_id,prod_name,prod_price FROM dbo.Products; 2.4 检索所有列 星号 * 通配符代表所有的列
+SELECT * FROM dbo.">
 <meta name=author content="Me">
 <link rel=canonical href=https://peiyafei.github.io/post/sql%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/>
 <meta name=google-site-verification content="XYZabc">
@@ -53,7 +56,10 @@ DBMS：数据库管理系统
  唯一性 不允许为NULL值 不允许修改或更新 不能重用（不能删除之后赋予新行）  1.2 什么是SQL SQL：Structured Query Language（结构化查询语言）
 第二章 检索数据 2.1 SELECT 语句 关键字(keyword)：作为SQL组成部分的保留字，不能用作为表或列的名字。
 SELECT检索数据，必须至少给出两条信息：选择什么，从什么地方选择
-2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; ">
+2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; 提示：
+ 建议SQL语句结尾总是加上分号 SQL语句不区分大小写 在处理SQL语句时，所有的空格都会被忽略，SQL语句可以写成一行或多行  2.3 检索多个列 检索多个列，在多个列名之间用逗号隔开（最后一列不能加）
+SELECT prod_id,prod_name,prod_price FROM dbo.Products; 2.4 检索所有列 星号 * 通配符代表所有的列
+SELECT * FROM dbo.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://peiyafei.github.io/post/sql%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/"><meta property="og:image" content="https://peiyafei.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:section" content="post">
 <meta property="article:published_time" content="2022-03-16T21:36:24+08:00">
@@ -74,9 +80,12 @@ DBMS：数据库管理系统
  唯一性 不允许为NULL值 不允许修改或更新 不能重用（不能删除之后赋予新行）  1.2 什么是SQL SQL：Structured Query Language（结构化查询语言）
 第二章 检索数据 2.1 SELECT 语句 关键字(keyword)：作为SQL组成部分的保留字，不能用作为表或列的名字。
 SELECT检索数据，必须至少给出两条信息：选择什么，从什么地方选择
-2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; ">
+2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; 提示：
+ 建议SQL语句结尾总是加上分号 SQL语句不区分大小写 在处理SQL语句时，所有的空格都会被忽略，SQL语句可以写成一行或多行  2.3 检索多个列 检索多个列，在多个列名之间用逗号隔开（最后一列不能加）
+SELECT prod_id,prod_name,prod_price FROM dbo.Products; 2.4 检索所有列 星号 * 通配符代表所有的列
+SELECT * FROM dbo.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://peiyafei.github.io/post/"},{"@type":"ListItem","position":2,"name":"SQL必知必会","item":"https://peiyafei.github.io/post/sql%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"SQL必知必会","name":"SQL必知必会","description":"《SQL必知必会》学习笔记 第一章 了解SQL 1.1 数据库的基础 1.1.1 数据库 数据库（database）：保存有组织的数据的容器。\nDBMS：数据库管理系统\n1.1.2 表 表：某种特定类型数据的结构化清单。\n表名：在同一数据库中不能使用相同的表名。\n1.1.3 列和数据类型 表由列组成\n列（column）：表中的字段。\n数据类型：用于限制列中所存储的数据类型\n1.1.4 行 行（row）：表中的记录\n1.1.5 主键 主键（primary key）：用于唯一表示表中每一行\n主键的特点：\n 唯一性 不允许为NULL值 不允许修改或更新 不能重用（不能删除之后赋予新行）  1.2 什么是SQL SQL：Structured Query Language（结构化查询语言）\n第二章 检索数据 2.1 SELECT 语句 关键字(keyword)：作为SQL组成部分的保留字，不能用作为表或列的名字。\nSELECT检索数据，必须至少给出两条信息：选择什么，从什么地方选择\n2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; ","keywords":[],"articleBody":"《SQL必知必会》学习笔记 第一章 了解SQL 1.1 数据库的基础 1.1.1 数据库 数据库（database）：保存有组织的数据的容器。\nDBMS：数据库管理系统\n1.1.2 表 表：某种特定类型数据的结构化清单。\n表名：在同一数据库中不能使用相同的表名。\n1.1.3 列和数据类型 表由列组成\n列（column）：表中的字段。\n数据类型：用于限制列中所存储的数据类型\n1.1.4 行 行（row）：表中的记录\n1.1.5 主键 主键（primary key）：用于唯一表示表中每一行\n主键的特点：\n 唯一性 不允许为NULL值 不允许修改或更新 不能重用（不能删除之后赋予新行）  1.2 什么是SQL SQL：Structured Query Language（结构化查询语言）\n第二章 检索数据 2.1 SELECT 语句 关键字(keyword)：作为SQL组成部分的保留字，不能用作为表或列的名字。\nSELECT检索数据，必须至少给出两条信息：选择什么，从什么地方选择\n2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; ","wordCount":"48","inLanguage":"en","datePublished":"2022-03-16T21:36:24+08:00","dateModified":"2022-03-16T21:36:24+08:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://peiyafei.github.io/post/sql%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/"},"publisher":{"@type":"Organization","name":"Qt开发","logo":{"@type":"ImageObject","url":"https://peiyafei.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"SQL必知必会","name":"SQL必知必会","description":"《SQL必知必会》学习笔记 第一章 了解SQL 1.1 数据库的基础 1.1.1 数据库 数据库（database）：保存有组织的数据的容器。\nDBMS：数据库管理系统\n1.1.2 表 表：某种特定类型数据的结构化清单。\n表名：在同一数据库中不能使用相同的表名。\n1.1.3 列和数据类型 表由列组成\n列（column）：表中的字段。\n数据类型：用于限制列中所存储的数据类型\n1.1.4 行 行（row）：表中的记录\n1.1.5 主键 主键（primary key）：用于唯一表示表中每一行\n主键的特点：\n 唯一性 不允许为NULL值 不允许修改或更新 不能重用（不能删除之后赋予新行）  1.2 什么是SQL SQL：Structured Query Language（结构化查询语言）\n第二章 检索数据 2.1 SELECT 语句 关键字(keyword)：作为SQL组成部分的保留字，不能用作为表或列的名字。\nSELECT检索数据，必须至少给出两条信息：选择什么，从什么地方选择\n2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; 提示：\n 建议SQL语句结尾总是加上分号 SQL语句不区分大小写 在处理SQL语句时，所有的空格都会被忽略，SQL语句可以写成一行或多行  2.3 检索多个列 检索多个列，在多个列名之间用逗号隔开（最后一列不能加）\nSELECT prod_id,prod_name,prod_price FROM dbo.Products; 2.4 检索所有列 星号 * 通配符代表所有的列\nSELECT * FROM dbo.","keywords":[],"articleBody":"《SQL必知必会》学习笔记 第一章 了解SQL 1.1 数据库的基础 1.1.1 数据库 数据库（database）：保存有组织的数据的容器。\nDBMS：数据库管理系统\n1.1.2 表 表：某种特定类型数据的结构化清单。\n表名：在同一数据库中不能使用相同的表名。\n1.1.3 列和数据类型 表由列组成\n列（column）：表中的字段。\n数据类型：用于限制列中所存储的数据类型\n1.1.4 行 行（row）：表中的记录\n1.1.5 主键 主键（primary key）：用于唯一表示表中每一行\n主键的特点：\n 唯一性 不允许为NULL值 不允许修改或更新 不能重用（不能删除之后赋予新行）  1.2 什么是SQL SQL：Structured Query Language（结构化查询语言）\n第二章 检索数据 2.1 SELECT 语句 关键字(keyword)：作为SQL组成部分的保留字，不能用作为表或列的名字。\nSELECT检索数据，必须至少给出两条信息：选择什么，从什么地方选择\n2.2 检索检索单个列 SELECT prod_name FROM dbo.Products; 提示：\n 建议SQL语句结尾总是加上分号 SQL语句不区分大小写 在处理SQL语句时，所有的空格都会被忽略，SQL语句可以写成一行或多行  2.3 检索多个列 检索多个列，在多个列名之间用逗号隔开（最后一列不能加）\nSELECT prod_id,prod_name,prod_price FROM dbo.Products; 2.4 检索所有列 星号 * 通配符代表所有的列\nSELECT * FROM dbo.Products; 2.5 检索不同的值 distinct 含义：不同的\nSELECT DISTINCT vend_id FROM dbo.Products; 2.6 限制结果 返回指定行数\nSELECT TOP 5 prod_name FROM dbo.Products; 2.7 使用注释 行注释如下：\nSELECT prod_name --这是一条注释 FROM dbo.Products; 块注释如下：\n/* 作者： 联系方式： 日期： */ SELECT prod_name FROM dbo.Products; 第三章 排序检索数据 3.1 排序数据 ","wordCount":"108","inLanguage":"en","datePublished":"2022-03-16T21:36:24+08:00","dateModified":"2022-03-16T21:36:24+08:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://peiyafei.github.io/post/sql%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/"},"publisher":{"@type":"Organization","name":"Qt开发","logo":{"@type":"ImageObject","url":"https://peiyafei.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -149,7 +158,22 @@ SQL必知必会
 <li>
 <a href=#21-select-%e8%af%ad%e5%8f%a5 aria-label="2.1 SELECT 语句">2.1 SELECT 语句</a></li>
 <li>
-<a href=#22-%e6%a3%80%e7%b4%a2%e6%a3%80%e7%b4%a2%e5%8d%95%e4%b8%aa%e5%88%97 aria-label="2.2 检索检索单个列">2.2 检索检索单个列</a>
+<a href=#22-%e6%a3%80%e7%b4%a2%e6%a3%80%e7%b4%a2%e5%8d%95%e4%b8%aa%e5%88%97 aria-label="2.2 检索检索单个列">2.2 检索检索单个列</a></li>
+<li>
+<a href=#23-%e6%a3%80%e7%b4%a2%e5%a4%9a%e4%b8%aa%e5%88%97 aria-label="2.3 检索多个列">2.3 检索多个列</a></li>
+<li>
+<a href=#24-%e6%a3%80%e7%b4%a2%e6%89%80%e6%9c%89%e5%88%97 aria-label="2.4 检索所有列">2.4 检索所有列</a></li>
+<li>
+<a href=#25-%e6%a3%80%e7%b4%a2%e4%b8%8d%e5%90%8c%e7%9a%84%e5%80%bc aria-label="2.5 检索不同的值">2.5 检索不同的值</a></li>
+<li>
+<a href=#26-%e9%99%90%e5%88%b6%e7%bb%93%e6%9e%9c aria-label="2.6 限制结果">2.6 限制结果</a></li>
+<li>
+<a href=#27-%e4%bd%bf%e7%94%a8%e6%b3%a8%e9%87%8a aria-label="2.7 使用注释">2.7 使用注释</a></li></ul>
+</li>
+<li>
+<a href=#%e7%ac%ac%e4%b8%89%e7%ab%a0-%e6%8e%92%e5%ba%8f%e6%a3%80%e7%b4%a2%e6%95%b0%e6%8d%ae aria-label="第三章 排序检索数据">第三章 排序检索数据</a><ul>
+<li>
+<a href=#31-%e6%8e%92%e5%ba%8f%e6%95%b0%e6%8d%ae aria-label="3.1 排序数据">3.1 排序数据</a>
 </li>
 </ul>
 </li>
@@ -189,7 +213,37 @@ SQL必知必会
 <p>SELECT检索数据，必须至少给出两条信息：选择什么，从什么地方选择</p>
 <h2 id=22-检索检索单个列>2.2 检索检索单个列<a hidden class=anchor aria-hidden=true href=#22-检索检索单个列>#</a></h2>
 <pre tabindex=0><code>SELECT prod_name FROM dbo.Products;
-</code></pre>
+</code></pre><p>提示：</p>
+<ul>
+<li>建议SQL语句结尾总是加上分号</li>
+<li>SQL语句不区分大小写</li>
+<li>在处理SQL语句时，所有的空格都会被忽略，SQL语句可以写成一行或多行</li>
+</ul>
+<h2 id=23-检索多个列>2.3 检索多个列<a hidden class=anchor aria-hidden=true href=#23-检索多个列>#</a></h2>
+<p>检索多个列，在多个列名之间用逗号隔开（最后一列不能加）</p>
+<pre tabindex=0><code>SELECT prod_id,prod_name,prod_price FROM dbo.Products;
+</code></pre><h2 id=24-检索所有列>2.4 检索所有列<a hidden class=anchor aria-hidden=true href=#24-检索所有列>#</a></h2>
+<p>星号 * 通配符代表所有的列</p>
+<pre tabindex=0><code>SELECT * FROM dbo.Products;
+</code></pre><h2 id=25-检索不同的值>2.5 检索不同的值<a hidden class=anchor aria-hidden=true href=#25-检索不同的值>#</a></h2>
+<p>distinct 含义：不同的</p>
+<pre tabindex=0><code>SELECT DISTINCT vend_id FROM dbo.Products;
+</code></pre><h2 id=26-限制结果>2.6 限制结果<a hidden class=anchor aria-hidden=true href=#26-限制结果>#</a></h2>
+<p>返回指定行数</p>
+<pre tabindex=0><code>SELECT TOP 5 prod_name FROM dbo.Products;
+</code></pre><h2 id=27-使用注释>2.7 使用注释<a hidden class=anchor aria-hidden=true href=#27-使用注释>#</a></h2>
+<p>行注释如下：</p>
+<pre tabindex=0><code>SELECT prod_name --这是一条注释
+FROM dbo.Products;
+</code></pre><p>块注释如下：</p>
+<pre tabindex=0><code>/*
+ 作者：
+ 联系方式：
+ 日期：
+*/
+SELECT prod_name FROM dbo.Products;
+</code></pre><h1 id=第三章-排序检索数据>第三章 排序检索数据<a hidden class=anchor aria-hidden=true href=#第三章-排序检索数据>#</a></h1>
+<h2 id=31-排序数据>3.1 排序数据<a hidden class=anchor aria-hidden=true href=#31-排序数据>#</a></h2>
 </div>
 <footer class=post-footer>
 <nav class=paginav>
