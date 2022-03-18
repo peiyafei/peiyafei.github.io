@@ -221,22 +221,22 @@ SQL必知必会
 </ul>
 <h2 id=23-检索多个列>2.3 检索多个列<a hidden class=anchor aria-hidden=true href=#23-检索多个列>#</a></h2>
 <p>检索多个列，在多个列名之间用逗号隔开（最后一列不能加）</p>
-<pre tabindex=0><code>SELECT prod_id,prod_name,prod_price FROM dbo.Products;
+<pre tabindex=0><code class=language-mssql data-lang=mssql>SELECT prod_id,prod_name,prod_price FROM dbo.Products;
 </code></pre><h2 id=24-检索所有列>2.4 检索所有列<a hidden class=anchor aria-hidden=true href=#24-检索所有列>#</a></h2>
 <p>星号 * 通配符代表所有的列</p>
-<pre tabindex=0><code>SELECT * FROM dbo.Products;
+<pre tabindex=0><code class=language-mssql data-lang=mssql>SELECT * FROM dbo.Products;
 </code></pre><h2 id=25-检索不同的值>2.5 检索不同的值<a hidden class=anchor aria-hidden=true href=#25-检索不同的值>#</a></h2>
 <p>distinct 含义：不同的</p>
-<pre tabindex=0><code>SELECT DISTINCT vend_id FROM dbo.Products;
+<pre tabindex=0><code class=language-mssql data-lang=mssql>SELECT DISTINCT vend_id FROM dbo.Products;
 </code></pre><h2 id=26-限制结果>2.6 限制结果<a hidden class=anchor aria-hidden=true href=#26-限制结果>#</a></h2>
 <p>返回指定行数</p>
-<pre tabindex=0><code>SELECT TOP 5 prod_name FROM dbo.Products;
+<pre tabindex=0><code class=language-mssql data-lang=mssql>SELECT TOP 5 prod_name FROM dbo.Products;
 </code></pre><h2 id=27-使用注释>2.7 使用注释<a hidden class=anchor aria-hidden=true href=#27-使用注释>#</a></h2>
 <p>行注释如下：</p>
-<pre tabindex=0><code>SELECT prod_name --这是一条注释
+<pre tabindex=0><code class=language-mssql data-lang=mssql>SELECT prod_name --这是一条注释
 FROM dbo.Products;
 </code></pre><p>块注释如下：</p>
-<pre tabindex=0><code>/*
+<pre tabindex=0><code class=language-mssql data-lang=mssql>/*
  作者：
  联系方式：
  日期：
