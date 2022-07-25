@@ -8,7 +8,9 @@
 <meta name=description content="实验环境： 针对开发Windows平台软件，不考虑跨平台特性：
  QtCreator+MSVC+Cmake VS+MSVC+Cmake  针对跨平台特性需求， QtCreator+WinGW+Cmake
  QtCreator+MinGW+Cmake VS+MinGW+Cmake  额外说明：qmake已被官方弃用
-第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 第五章 ECMAScript初探 第六章 Qt Quick事件处理 第七章 组件与动态对象 第八章 Qt Quick 元素布局 第九章 Qt Quick 常用元素介绍 第十章 Canvas（画布） 第十一章 C++与QML混合编程 第十二章 动画 第十三章 Model/View 第十四章 多媒体 第十五章 网络 第十六章 定位 第十七章 综合实例之文件查看器 第十八章 综合实例之聊哈 附录A 常见问题 ">
+第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 Hello Qt QuickApp再分析 4.1.1 基本程序结构 main.qml 的内容如下：
+import QtQuick Window { width: 640 height: 480 visible: true title: qsTr(&#34;Hello World&#34;) MouseArea { anchors.fill: parent onClicked: { Qt.quit(); } } Text { id: txt1 text: qsTr(&#34;Hello Qt Quick App&#34;) anchors.centerIn: parent } } 一个QML文档由两部分组成
+ import 语句 QML 对象树   import和C++中的#include类似，用来导入一个模块 一个QML文档就对应一颗以文档根对象为根的对象树 默认属性，  4.">
 <meta name=author content="Me">
 <link rel=canonical href=https://peiyafei.github.io/post/qtquick/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.ec8da366ca2fb647537ccb7a8f6fa5b4e9cd3c7a0d3171dd2d3baad1e49c8bfc.css integrity="sha256-7I2jZsovtkdTfMt6j2+ltOnNPHoNMXHdLTuq0eSci/w=" rel="preload stylesheet" as=style>
@@ -28,7 +30,9 @@
 <meta property="og:description" content="实验环境： 针对开发Windows平台软件，不考虑跨平台特性：
  QtCreator+MSVC+Cmake VS+MSVC+Cmake  针对跨平台特性需求， QtCreator+WinGW+Cmake
  QtCreator+MinGW+Cmake VS+MinGW+Cmake  额外说明：qmake已被官方弃用
-第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 第五章 ECMAScript初探 第六章 Qt Quick事件处理 第七章 组件与动态对象 第八章 Qt Quick 元素布局 第九章 Qt Quick 常用元素介绍 第十章 Canvas（画布） 第十一章 C++与QML混合编程 第十二章 动画 第十三章 Model/View 第十四章 多媒体 第十五章 网络 第十六章 定位 第十七章 综合实例之文件查看器 第十八章 综合实例之聊哈 附录A 常见问题 ">
+第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 Hello Qt QuickApp再分析 4.1.1 基本程序结构 main.qml 的内容如下：
+import QtQuick Window { width: 640 height: 480 visible: true title: qsTr(&#34;Hello World&#34;) MouseArea { anchors.fill: parent onClicked: { Qt.quit(); } } Text { id: txt1 text: qsTr(&#34;Hello Qt Quick App&#34;) anchors.centerIn: parent } } 一个QML文档由两部分组成
+ import 语句 QML 对象树   import和C++中的#include类似，用来导入一个模块 一个QML文档就对应一颗以文档根对象为根的对象树 默认属性，  4.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://peiyafei.github.io/post/qtquick/"><meta property="og:image" content="https://peiyafei.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:section" content="post">
 <meta property="article:published_time" content="2022-07-21T21:00:50+08:00">
@@ -39,9 +43,11 @@
 <meta name=twitter:description content="实验环境： 针对开发Windows平台软件，不考虑跨平台特性：
  QtCreator+MSVC+Cmake VS+MSVC+Cmake  针对跨平台特性需求， QtCreator+WinGW+Cmake
  QtCreator+MinGW+Cmake VS+MinGW+Cmake  额外说明：qmake已被官方弃用
-第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 第五章 ECMAScript初探 第六章 Qt Quick事件处理 第七章 组件与动态对象 第八章 Qt Quick 元素布局 第九章 Qt Quick 常用元素介绍 第十章 Canvas（画布） 第十一章 C++与QML混合编程 第十二章 动画 第十三章 Model/View 第十四章 多媒体 第十五章 网络 第十六章 定位 第十七章 综合实例之文件查看器 第十八章 综合实例之聊哈 附录A 常见问题 ">
+第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 Hello Qt QuickApp再分析 4.1.1 基本程序结构 main.qml 的内容如下：
+import QtQuick Window { width: 640 height: 480 visible: true title: qsTr(&#34;Hello World&#34;) MouseArea { anchors.fill: parent onClicked: { Qt.quit(); } } Text { id: txt1 text: qsTr(&#34;Hello Qt Quick App&#34;) anchors.centerIn: parent } } 一个QML文档由两部分组成
+ import 语句 QML 对象树   import和C++中的#include类似，用来导入一个模块 一个QML文档就对应一颗以文档根对象为根的对象树 默认属性，  4.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://peiyafei.github.io/post/"},{"@type":"ListItem","position":2,"name":"QtQuick","item":"https://peiyafei.github.io/post/qtquick/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"QtQuick","name":"QtQuick","description":"实验环境： 针对开发Windows平台软件，不考虑跨平台特性：\n QtCreator+MSVC+Cmake VS+MSVC+Cmake  针对跨平台特性需求， QtCreator+WinGW+Cmake\n QtCreator+MinGW+Cmake VS+MinGW+Cmake  额外说明：qmake已被官方弃用\n第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 第五章 ECMAScript初探 第六章 Qt Quick事件处理 第七章 组件与动态对象 第八章 Qt Quick 元素布局 第九章 Qt Quick 常用元素介绍 第十章 Canvas（画布） 第十一章 C++与QML混合编程 第十二章 动画 第十三章 Model/View 第十四章 多媒体 第十五章 网络 第十六章 定位 第十七章 综合实例之文件查看器 第十八章 综合实例之聊哈 附录A 常见问题 ","keywords":[],"articleBody":"实验环境： 针对开发Windows平台软件，不考虑跨平台特性：\n QtCreator+MSVC+Cmake VS+MSVC+Cmake  针对跨平台特性需求， QtCreator+WinGW+Cmake\n QtCreator+MinGW+Cmake VS+MinGW+Cmake  额外说明：qmake已被官方弃用\n第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 第五章 ECMAScript初探 第六章 Qt Quick事件处理 第七章 组件与动态对象 第八章 Qt Quick 元素布局 第九章 Qt Quick 常用元素介绍 第十章 Canvas（画布） 第十一章 C++与QML混合编程 第十二章 动画 第十三章 Model/View 第十四章 多媒体 第十五章 网络 第十六章 定位 第十七章 综合实例之文件查看器 第十八章 综合实例之聊哈 附录A 常见问题 ","wordCount":"55","inLanguage":"en","datePublished":"2022-07-21T21:00:50+08:00","dateModified":"2022-07-21T21:00:50+08:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://peiyafei.github.io/post/qtquick/"},"publisher":{"@type":"Organization","name":"Qt开发","logo":{"@type":"ImageObject","url":"https://peiyafei.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"QtQuick","name":"QtQuick","description":"实验环境： 针对开发Windows平台软件，不考虑跨平台特性：\n QtCreator+MSVC+Cmake VS+MSVC+Cmake  针对跨平台特性需求， QtCreator+WinGW+Cmake\n QtCreator+MinGW+Cmake VS+MinGW+Cmake  额外说明：qmake已被官方弃用\n第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 Hello Qt QuickApp再分析 4.1.1 基本程序结构 main.qml 的内容如下：\nimport QtQuick Window { width: 640 height: 480 visible: true title: qsTr(\u0026#34;Hello World\u0026#34;) MouseArea { anchors.fill: parent onClicked: { Qt.quit(); } } Text { id: txt1 text: qsTr(\u0026#34;Hello Qt Quick App\u0026#34;) anchors.centerIn: parent } } 一个QML文档由两部分组成\n import 语句 QML 对象树   import和C++中的#include类似，用来导入一个模块 一个QML文档就对应一颗以文档根对象为根的对象树 默认属性，  4.","keywords":[],"articleBody":"实验环境： 针对开发Windows平台软件，不考虑跨平台特性：\n QtCreator+MSVC+Cmake VS+MSVC+Cmake  针对跨平台特性需求， QtCreator+WinGW+Cmake\n QtCreator+MinGW+Cmake VS+MinGW+Cmake  额外说明：qmake已被官方弃用\n第一章 Qt Quick概览 第二章 Qt开发环境快速上手 第三章 QML语言基础 第四章 Qt Quick快速入门 4.1 Hello Qt QuickApp再分析 4.1.1 基本程序结构 main.qml 的内容如下：\nimport QtQuick Window { width: 640 height: 480 visible: true title: qsTr(\"Hello World\") MouseArea { anchors.fill: parent onClicked: { Qt.quit(); } } Text { id: txt1 text: qsTr(\"Hello Qt Quick App\") anchors.centerIn: parent } } 一个QML文档由两部分组成\n import 语句 QML 对象树   import和C++中的#include类似，用来导入一个模块 一个QML文档就对应一颗以文档根对象为根的对象树 默认属性，  4.1.2 使用 Item 作为QML跟对象 已过时，不阐述\n4.2 闲话Window GUI：Graphical User Interface 图形用户接口\nCLI：Command Line User Interface 命令行用户接口\nWindow对象用于创建与操作系统相关的顶层窗口\n4.2.1 第五章 ECMAScript初探 第六章 Qt Quick事件处理 第七章 组件与动态对象 第八章 Qt Quick 元素布局 第九章 Qt Quick 常用元素介绍 第十章 Canvas（画布） 第十一章 C++与QML混合编程 第十二章 动画 第十三章 Model/View 第十四章 多媒体 第十五章 网络 第十六章 定位 第十七章 综合实例之文件查看器 第十八章 综合实例之聊哈 附录A 常见问题 ","wordCount":"123","inLanguage":"en","datePublished":"2022-07-21T21:00:50+08:00","dateModified":"2022-07-21T21:00:50+08:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://peiyafei.github.io/post/qtquick/"},"publisher":{"@type":"Organization","name":"Qt开发","logo":{"@type":"ImageObject","url":"https://peiyafei.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -101,7 +107,17 @@ QtQuick
 <li>
 <a href=#%e7%ac%ac%e5%9b%9b%e7%ab%a0-qt-quick%e5%bf%ab%e9%80%9f%e5%85%a5%e9%97%a8 aria-label="第四章 Qt Quick快速入门">第四章 Qt Quick快速入门</a><ul>
 <li>
-<a href=#41 aria-label=4.1>4.1</a></li></ul>
+<a href=#41-hello-qt-quickapp%e5%86%8d%e5%88%86%e6%9e%90 aria-label="4.1 Hello Qt QuickApp再分析">4.1 Hello Qt QuickApp再分析</a><ul>
+<li>
+<a href=#411-%e5%9f%ba%e6%9c%ac%e7%a8%8b%e5%ba%8f%e7%bb%93%e6%9e%84 aria-label="4.1.1 基本程序结构">4.1.1 基本程序结构</a></li>
+<li>
+<a href=#412-%e4%bd%bf%e7%94%a8-item-%e4%bd%9c%e4%b8%baqml%e8%b7%9f%e5%af%b9%e8%b1%a1 aria-label="4.1.2 使用 Item 作为QML跟对象">4.1.2 使用 Item 作为QML跟对象</a></li></ul>
+</li>
+<li>
+<a href=#42-%e9%97%b2%e8%af%9dwindow aria-label="4.2 闲话Window">4.2 闲话Window</a><ul>
+<li>
+<a href=#421 aria-label=4.2.1>4.2.1</a></li></ul>
+</li></ul>
 </li>
 <li>
 <a href=#%e7%ac%ac%e4%ba%94%e7%ab%a0-ecmascript%e5%88%9d%e6%8e%a2 aria-label="第五章 ECMAScript初探">第五章 ECMAScript初探</a></li>
@@ -154,7 +170,48 @@ QtQuick
 <h1 id=第二章-qt开发环境快速上手>第二章 Qt开发环境快速上手<a hidden class=anchor aria-hidden=true href=#第二章-qt开发环境快速上手>#</a></h1>
 <h1 id=第三章-qml语言基础>第三章 QML语言基础<a hidden class=anchor aria-hidden=true href=#第三章-qml语言基础>#</a></h1>
 <h1 id=第四章-qt-quick快速入门>第四章 Qt Quick快速入门<a hidden class=anchor aria-hidden=true href=#第四章-qt-quick快速入门>#</a></h1>
-<h2 id=41>4.1<a hidden class=anchor aria-hidden=true href=#41>#</a></h2>
+<h2 id=41-hello-qt-quickapp再分析>4.1 Hello Qt QuickApp再分析<a hidden class=anchor aria-hidden=true href=#41-hello-qt-quickapp再分析>#</a></h2>
+<h3 id=411-基本程序结构>4.1.1 基本程序结构<a hidden class=anchor aria-hidden=true href=#411-基本程序结构>#</a></h3>
+<p>main.qml 的内容如下：</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>import</span> <span style=color:#a6e22e>QtQuick</span>
+
+<span style=color:#a6e22e>Window</span> {
+    <span style=color:#a6e22e>width</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>640</span>
+    <span style=color:#a6e22e>height</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>480</span>
+    <span style=color:#a6e22e>visible</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span>
+    <span style=color:#a6e22e>title</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>qsTr</span>(<span style=color:#e6db74>&#34;Hello World&#34;</span>)
+
+    <span style=color:#a6e22e>MouseArea</span> {
+        <span style=color:#a6e22e>anchors</span>.<span style=color:#a6e22e>fill</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>parent</span>
+        <span style=color:#a6e22e>onClicked</span><span style=color:#f92672>:</span> {
+            <span style=color:#a6e22e>Qt</span>.<span style=color:#a6e22e>quit</span>();
+        }
+    }
+
+    <span style=color:#a6e22e>Text</span> {
+        <span style=color:#a6e22e>id</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>txt1</span>
+        <span style=color:#a6e22e>text</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>qsTr</span>(<span style=color:#e6db74>&#34;Hello Qt Quick App&#34;</span>)
+        <span style=color:#a6e22e>anchors</span>.<span style=color:#a6e22e>centerIn</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>parent</span>
+    }
+}
+
+</code></pre></div><p>一个QML文档由两部分组成</p>
+<ul>
+<li>import 语句</li>
+<li>QML 对象树</li>
+</ul>
+<ol>
+<li>import和C++中的#include类似，用来导入一个模块</li>
+<li>一个QML文档就对应一颗以文档根对象为根的对象树</li>
+<li>默认属性，</li>
+</ol>
+<h3 id=412-使用-item-作为qml跟对象>4.1.2 使用 Item 作为QML跟对象<a hidden class=anchor aria-hidden=true href=#412-使用-item-作为qml跟对象>#</a></h3>
+<p>已过时，不阐述</p>
+<h2 id=42-闲话window>4.2 闲话Window<a hidden class=anchor aria-hidden=true href=#42-闲话window>#</a></h2>
+<p>GUI：Graphical User Interface 图形用户接口</p>
+<p>CLI：Command Line User Interface 命令行用户接口</p>
+<p>Window对象用于创建与操作系统相关的顶层窗口</p>
+<h3 id=421>4.2.1<a hidden class=anchor aria-hidden=true href=#421>#</a></h3>
 <h1 id=第五章-ecmascript初探>第五章 ECMAScript初探<a hidden class=anchor aria-hidden=true href=#第五章-ecmascript初探>#</a></h1>
 <h1 id=第六章-qt-quick事件处理>第六章 Qt Quick事件处理<a hidden class=anchor aria-hidden=true href=#第六章-qt-quick事件处理>#</a></h1>
 <h1 id=第七章-组件与动态对象>第七章 组件与动态对象<a hidden class=anchor aria-hidden=true href=#第七章-组件与动态对象>#</a></h1>
