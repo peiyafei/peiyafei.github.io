@@ -80,7 +80,7 @@ Linux就该这么学
 关闭系统（只能root管理员使用）
 # poweroff   wget 命令">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://peiyafei.github.io/post/"},{"@type":"ListItem","position":2,"name":"Linux学习总结","item":"https://peiyafei.github.io/post/linux%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Linux学习总结","name":"Linux学习总结","description":"Linux学习总结\n（一）单词 1、grant 授予 2、revoke 撤销 3、identified 确定 4、repository 仓库 5、SYNOPSIS 概要 6、reduce 缩小 7、volume 卷\nLinux就该这么学\n学习进度P33\n第二章 新手必须掌握的Linux命令 2.3 常用的系统工作命令   echo 命令\n输出字符\n# echo hellworld 输出变量值\n# echo $SHELL   date 命令\n查看当前时间\n# date 按照\u0026quot;年-月-日 小时：分钟：秒\u0026quot;的格式查看当前系统时间\n# date +\u0026quot;%Y-%m-%d %H:%M:%S\u0026quot; 将时间设置为2017年9月1日8点30分\n# date -s \u0026quot;20170901 8:30:00\u0026quot; 查看今天是当年中的第几天\n# date +\u0026quot;%j\u0026quot;   reboot 命令\n重启操作系统（只能root管理员使用）\n# reboot   poweroff 命令\n关闭系统（只能root管理员使用）\n# poweroff   wget 命令","keywords":[],"articleBody":"Linux学习总结\n（一）单词 1、grant 授予 2、revoke 撤销 3、identified 确定 4、repository 仓库 5、SYNOPSIS 概要 6、reduce 缩小 7、volume 卷\nLinux就该这么学\n学习进度P33\n第二章 新手必须掌握的Linux命令 2.3 常用的系统工作命令   echo 命令\n输出字符\n# echo hellworld 输出变量值\n# echo $SHELL   date 命令\n查看当前时间\n# date 按照\"年-月-日 小时：分钟：秒\"的格式查看当前系统时间\n# date +\"%Y-%m-%d %H:%M:%S\" 将时间设置为2017年9月1日8点30分\n# date -s \"20170901 8:30:00\" 查看今天是当年中的第几天\n# date +\"%j\"   reboot 命令\n重启操作系统（只能root管理员使用）\n# reboot   poweroff 命令\n关闭系统（只能root管理员使用）\n# poweroff   wget 命令\n在终端中下载网络文件\n# wget http://www.linuxprobe.com/docs/LinuxProbe.pdf   ps 命令\n查看系统的进程状态\n# ps -aux   top 命令\n动态的监视进程活动与系统负载\n# top   pidof 命令\n查询某个指定进程的PID值\n# pidof sshd   kill 命令\n终止某个指定的PID的服务进程\n# kill 2156   killall 命令\n终止某个指定名称的服务所对应的全部进程\n# killall sshd   2.4 系统状态监测命令   ifconfig 命令\n获取网卡配置与网络状态等信息\n# ifconfig   uname 命令\n查看系统内核与系统版本\n# uname -a 查看系统版本信息\n# cat /etc/redhat-release   uptime 命令\n查看系统负载信息\n# uptime   free 命令\n显示当前系统中内存的使用量\n# free -h   who 命令\n查看当前登入主机的用户终端信息\n# who   last 命令\n查看系统所有的登录记录\n# date   history 命令\n显示历史执行过的命令\n# history 清空执行过的历史命令\n# history -c   sosreport 命令\n收集系统配置及架构信息并输出诊断文档\n# sosreport   2.5 工作目录切换命令   pwd 命令\n显示用户当前所处的工作目录\n# pwd   cd 命令\n切换工作路径\n# cd /etc/ 返回到上一次的目录\n# cd - 切换到用户的家目录\n# cd ~   ls 命令\n显示目录中的文件信息，参数a表示查看全部文件包含隐藏文件，参数 l 显示文件的详细信息\n# ls -al   2.6 文本文件编辑命令   cat 命令\n查看纯文本文件（内容较少的），参数n显示行号\n# cat -n initial-setup-ks.cfg   more 命令\n查看纯文本文件（内容较多的），用空格或者回车翻页\n# more initial-setup-ks.cfg   head 命令\n查看纯文本文件的前N行\n# head -n 20 initial-setup-ks.cfg   tail 命令\n查看纯文本文件的后N行或持续刷新内容\n# tail -n 20 /var/log/messages   tr 命令\n替换文本文件中的字符\n# cat initial-setup-ks.cfg | tr [a-z] [A-Z]   wc 命令\n统计指定文本的行数、字数、字节数\n# wc -l /etc/passwd   stat 命令\n查看文件的具体存储信息和时间等信息\n# wc -l /etc/passwd   cut 命令\n按列提取文本字符，参数 -d 设置指明间隔符合，参数 -f 指定列数\n# cut -d: -f1 /etc/passwd   diff 命令\n比较多个文本文件的差异，参数 –brief 显示比较后的结果\n# diff --brief A.txt B.txt 参数-c描述文件具体不同的内容\n# diff -c A.txt B.txt   2.7 文件目录管理命令   touch 命令\n创建空白文件\n# touch text.txt 修改文件时间，参数a仅修改读取时间，参数m仅修改修改时间，参数-d同时修改atime和mtime\n# touch -d \"2017-07-11 18:01\" text.txt   mkdir 命令\n创建空白的目录\n# mkdir linuxprobe   cp 命令\n复制文件或者目录\n# cp AA.txt BB.txt   mv 命令\n剪切文件（不同目录）\n# cp AA.txt /home/linuxprobe/ 文件重命名（同一目录，目标文件不存在）\n# mv BB.txt CC.txt   rm 命令\n删除文件，-f参数为强制删除不询问\n# rm -f AA.txt -r参数用于删除目录\n# rm -rf test/   dd 命令\n按照指定大小和个数的数据库来复制文件\n# dd if=/dev/zero of=560_file count=1 bs=560M 制作光盘镜像文件\n# dd if=/dev/cdrom of=RHEL-server-7.0-x86_64-LinuxProbe.com.iso   file 命令\n查看文件的类型\n# file /dev/sda   2.8 打包压缩和搜索命令   tar 命令\n压缩\n# tar -zcvf etc.tar.gz /etc/ 解压，-C参数指定解压目录\n# tar -zxvf etc.tar.gz -C test01/   grep 命令\n（在文本中执行关键词搜索，并显示匹配结果）\n查询不允许登录系统的所有用户\n# grep /sbin/nologin /etc/passwd   find 命令\n（按照指定条件来查找文件）\n获取/etc目录中以host开头的文件列表\n# find /etc/ -name \"host*\" -print 搜索整个系统中权限包括SUID权限的所有文件\n# find / -perm -4000 -print   第三章 管道符、重定向与环境变量 3.1 输入输出重定向  标准输入重定向（STDIN，文件描述符为 0 ） 标准输出重定向（STDOUT，文件描述符为 1 ） 错误输出重定向（STDERR，文件描述符为 2 ）  通过标准输出重定向将man bash命令原本要输出到屏幕的信息写入到readme.txt中\n# man bash readme.txt 覆盖写入\n# echo \"welconme to LinuxProbe.com\" readme.txt 追加写入\n# echo \"Quality linux learning materials\" readme.txt 错误输出重定向\n# ls -l linuxprobe 2 stderr.txt 输入重定向\n# wc -l 3.2 管道命令符 统计被限制登录用户数\n# grep /sbin/nologin /etc/passwd | wc -l 自动化脚本修改密码操作\n# echo \"linuxprobe\" | passwd --stdin root 3.3 命令行的通配符 用通配符 *查看硬盘分区数，其*匹配零个或多个字符\n# ls -l /dev/sda* 用通配符？查看硬盘分区数，其中？代表一个字符\n# ls -l /dev/sda? 使用 [0-9] 匹配单个字符\n# ls -l /dev/sda[0-9] 3.4 常用的转义字符  反斜杠（\\） 单引号('') 双引号(\"\") 反引号(``)  用双引号保留其中的字符串和变量信息\n# price=5 # echo \"price is $price\" 使用\\保持后面紧接着的的变量为单纯的字符\n# echo \"price is \\$$price\" 命令执行后，返回结果\n# echo `uname -a` 3.5 重要的环境变量 用type判断命令是内部命令还是外部命令\n# type cd 检查rm命令是否有别名\n# alias rm 定义命令别名\n# unalias rm 取消命令别名\n# unalias ls 显示环境变量\n# $PATH 增加环境变量\nPATH=$PATH:/root/bin 第四章 vim编辑器与shell命令脚本 4.1 vim文本编辑器  命令模式 输入模式 末行模式  4.1.1 编写简单文档\n4.1.2 配置主机名称\n# vim /etc/hostname 查看主机名\n# hostname 4.13 配置网卡信息\n# vim /etc/sysconfig/network-scripts/ifcfg-eno16777728 重启网卡配置\n# systemctl restart network 4.1.4 配置Yum软件仓库\n需要试验（未完成）\n4.2 编写Shell脚本 4.2.1 编写简单的脚本\n# vim example1.sh #!/bin/bash pwd ls -al 第一种：执行脚本\n# bash example1.sh 第二种：执行脚本\n# chmod u+x example1.sh 4.2.2 接收用户的参数\n4.3 流程控制语句 4.3.1 单分支的if条件语句\n# vim mkcdrom.sh #!/bin/bash DIR=\"/media/cdrom\" if [ ! -e $DIR ] then mkdir -p $DIR fi 4.3.2 双分支的if条件语句\n第七章 使用RAID与LVM磁盘阵列技术  RAID（独立冗余磁盘阵列） LVM（逻辑卷管理器）  RAID 0 技术，至少两块，通过硬件或软件的方式串联在一起。\nRAID 1 技术，将两块以上的硬盘设备进行绑定（镜像备份）。\nRAID 5 技术，将硬盘设备的数据奇偶校验信息保存到其他硬盘设备中。\nRAID 10 技术（常用），至少4块硬盘来组建，是RAID 1 + RAID 0 的组合体。先组合为RAID 1 ，再实施 RAID 0 技术\nmdadm 命令用于管理Linux系统中的软件的 RAID 硬盘阵列\n先创建 raid ，再格式化，再挂载，再设置开机自动挂载\n磁盘阵列+备份盘：RAID 5 + 备份盘\n7.2 LVM（逻辑卷管理器）\n","wordCount":"622","inLanguage":"en","datePublished":"2022-05-29T22:19:51+08:00","dateModified":"2022-05-29T22:19:51+08:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://peiyafei.github.io/post/linux%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"},"publisher":{"@type":"Organization","name":"Qt开发","logo":{"@type":"ImageObject","url":"https://peiyafei.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Linux学习总结","name":"Linux学习总结","description":"Linux学习总结\n（一）单词 1、grant 授予 2、revoke 撤销 3、identified 确定 4、repository 仓库 5、SYNOPSIS 概要 6、reduce 缩小 7、volume 卷\nLinux就该这么学\n学习进度P33\n第二章 新手必须掌握的Linux命令 2.3 常用的系统工作命令   echo 命令\n输出字符\n# echo hellworld 输出变量值\n# echo $SHELL   date 命令\n查看当前时间\n# date 按照\u0026quot;年-月-日 小时：分钟：秒\u0026quot;的格式查看当前系统时间\n# date +\u0026quot;%Y-%m-%d %H:%M:%S\u0026quot; 将时间设置为2017年9月1日8点30分\n# date -s \u0026quot;20170901 8:30:00\u0026quot; 查看今天是当年中的第几天\n# date +\u0026quot;%j\u0026quot;   reboot 命令\n重启操作系统（只能root管理员使用）\n# reboot   poweroff 命令\n关闭系统（只能root管理员使用）\n# poweroff   wget 命令","keywords":[],"articleBody":"Linux学习总结\n（一）单词 1、grant 授予 2、revoke 撤销 3、identified 确定 4、repository 仓库 5、SYNOPSIS 概要 6、reduce 缩小 7、volume 卷\nLinux就该这么学\n学习进度P33\n第二章 新手必须掌握的Linux命令 2.3 常用的系统工作命令   echo 命令\n输出字符\n# echo hellworld 输出变量值\n# echo $SHELL   date 命令\n查看当前时间\n# date 按照\"年-月-日 小时：分钟：秒\"的格式查看当前系统时间\n# date +\"%Y-%m-%d %H:%M:%S\" 将时间设置为2017年9月1日8点30分\n# date -s \"20170901 8:30:00\" 查看今天是当年中的第几天\n# date +\"%j\"   reboot 命令\n重启操作系统（只能root管理员使用）\n# reboot   poweroff 命令\n关闭系统（只能root管理员使用）\n# poweroff   wget 命令\n在终端中下载网络文件\n# wget http://www.linuxprobe.com/docs/LinuxProbe.pdf   ps 命令\n查看系统的进程状态\n# ps -aux   top 命令\n动态的监视进程活动与系统负载\n# top   pidof 命令\n查询某个指定进程的PID值\n# pidof sshd   kill 命令\n终止某个指定的PID的服务进程\n# kill 2156   killall 命令\n终止某个指定名称的服务所对应的全部进程\n# killall sshd   2.4 系统状态监测命令   ifconfig 命令\n获取网卡配置与网络状态等信息\n# ifconfig   uname 命令\n查看系统内核与系统版本\n# uname -a 查看系统版本信息\n# cat /etc/redhat-release   uptime 命令\n查看系统负载信息\n# uptime   free 命令\n显示当前系统中内存的使用量\n# free -h   who 命令\n查看当前登入主机的用户终端信息\n# who   last 命令\n查看系统所有的登录记录\n# date   history 命令\n显示历史执行过的命令\n# history 清空执行过的历史命令\n# history -c   sosreport 命令\n收集系统配置及架构信息并输出诊断文档\n# sosreport   2.5 工作目录切换命令   pwd 命令\n显示用户当前所处的工作目录\n# pwd   cd 命令\n切换工作路径\n# cd /etc/ 返回到上一次的目录\n# cd - 切换到用户的家目录\n# cd ~   ls 命令\n显示目录中的文件信息，参数a表示查看全部文件包含隐藏文件，参数 l 显示文件的详细信息\n# ls -al   2.6 文本文件编辑命令   cat 命令\n查看纯文本文件（内容较少的），参数n显示行号\n# cat -n initial-setup-ks.cfg   more 命令\n查看纯文本文件（内容较多的），用空格或者回车翻页\n# more initial-setup-ks.cfg   head 命令\n查看纯文本文件的前N行\n# head -n 20 initial-setup-ks.cfg   tail 命令\n查看纯文本文件的后N行或持续刷新内容\n# tail -n 20 /var/log/messages   tr 命令\n替换文本文件中的字符\n# cat initial-setup-ks.cfg | tr [a-z] [A-Z]   wc 命令\n统计指定文本的行数、字数、字节数\n# wc -l /etc/passwd   stat 命令\n查看文件的具体存储信息和时间等信息\n# wc -l /etc/passwd   cut 命令\n按列提取文本字符，参数 -d 设置指明间隔符合，参数 -f 指定列数\n# cut -d: -f1 /etc/passwd   diff 命令\n比较多个文本文件的差异，参数 –brief 显示比较后的结果\n# diff --brief A.txt B.txt 参数-c描述文件具体不同的内容\n# diff -c A.txt B.txt   2.7 文件目录管理命令   touch 命令\n创建空白文件\n# touch text.txt 修改文件时间，参数a仅修改读取时间，参数m仅修改修改时间，参数-d同时修改atime和mtime\n# touch -d \"2017-07-11 18:01\" text.txt   mkdir 命令\n创建空白的目录\n# mkdir linuxprobe   cp 命令\n复制文件或者目录\n# cp AA.txt BB.txt   mv 命令\n剪切文件（不同目录）\n# cp AA.txt /home/linuxprobe/ 文件重命名（同一目录，目标文件不存在）\n# mv BB.txt CC.txt   rm 命令\n删除文件，-f参数为强制删除不询问\n# rm -f AA.txt -r参数用于删除目录\n# rm -rf test/   dd 命令\n按照指定大小和个数的数据库来复制文件\n# dd if=/dev/zero of=560_file count=1 bs=560M 制作光盘镜像文件\n# dd if=/dev/cdrom of=RHEL-server-7.0-x86_64-LinuxProbe.com.iso   file 命令\n查看文件的类型\n# file /dev/sda   2.8 打包压缩和搜索命令   tar 命令\n压缩\n# tar -zcvf etc.tar.gz /etc/ 解压，-C参数指定解压目录\n# tar -zxvf etc.tar.gz -C test01/   grep 命令\n（在文本中执行关键词搜索，并显示匹配结果）\n查询不允许登录系统的所有用户\n# grep /sbin/nologin /etc/passwd   find 命令\n（按照指定条件来查找文件）\n获取/etc目录中以host开头的文件列表\n# find /etc/ -name \"host*\" -print 搜索整个系统中权限包括SUID权限的所有文件\n# find / -perm -4000 -print   第三章 管道符、重定向与环境变量 3.1 输入输出重定向  标准输入重定向（STDIN，文件描述符为 0 ） 标准输出重定向（STDOUT，文件描述符为 1 ） 错误输出重定向（STDERR，文件描述符为 2 ）  通过标准输出重定向将man bash命令原本要输出到屏幕的信息写入到readme.txt中\n# man bash readme.txt 覆盖写入\n# echo \"welconme to LinuxProbe.com\" readme.txt 追加写入\n# echo \"Quality linux learning materials\" readme.txt 错误输出重定向\n# ls -l linuxprobe 2 stderr.txt 输入重定向\n# wc -l 3.2 管道命令符 统计被限制登录用户数\n# grep /sbin/nologin /etc/passwd | wc -l 自动化脚本修改密码操作\n# echo \"linuxprobe\" | passwd --stdin root 3.3 命令行的通配符 用通配符 *查看硬盘分区数，其*匹配零个或多个字符\n# ls -l /dev/sda* 用通配符？查看硬盘分区数，其中？代表一个字符\n# ls -l /dev/sda? 使用 [0-9] 匹配单个字符\n# ls -l /dev/sda[0-9] 3.4 常用的转义字符  反斜杠（\\） 单引号('') 双引号(\"\") 反引号(``)  用双引号保留其中的字符串和变量信息\n# price=5 # echo \"price is $price\" 使用\\保持后面紧接着的的变量为单纯的字符\n# echo \"price is \\$$price\" 命令执行后，返回结果\n# echo `uname -a` 3.5 重要的环境变量 用type判断命令是内部命令还是外部命令\n# type cd 检查rm命令是否有别名\n# alias rm 定义命令别名\n# unalias rm 取消命令别名\n# unalias ls 显示环境变量\n# $PATH 增加环境变量\nPATH=$PATH:/root/bin 第四章 vim编辑器与shell命令脚本 4.1 vim文本编辑器  命令模式 输入模式 末行模式  4.1.1 编写简单文档 4.1.2 配置主机名称 # vim /etc/hostname 查看主机名\n# hostname 4.1.3 配置网卡信息 # vim /etc/sysconfig/network-scripts/ifcfg-eno16777728 重启网卡配置\n# systemctl restart network 4.1.4 配置Yum软件仓库   在/etc/yum.repos.d目录中创建rhel7.repo文件\n# vim /etc/yum.repos.d/rhel7.repo   新建/media/cdrom目录\n# mkdir /media/cdrom/   编辑配置文件\n[rhel7] name=rhel7 baseurl=file:///media/cdrom enabled=1 gpgcheck=0   手动挂载\n# mount /dev/cdrom /media/cdrom/   设置开机自动挂载\n# vim /etc/fstab 追加如下代码\n/dev/cdrom /media/cdrom iso9660 defaults 0 0   安装httpd以验证仓库配置结果\n# yum install httpd -y   4.2 编写Shell脚本 4.2.1 编写简单的脚本\n# vim example1.sh #!/bin/bash pwd ls -al 第一种：执行脚本\n# bash example1.sh 第二种：执行脚本\n# chmod u+x example1.sh 4.2.2 接收用户的参数\n4.3 流程控制语句 4.3.1 单分支的if条件语句\n# vim mkcdrom.sh #!/bin/bash DIR=\"/media/cdrom\" if [ ! -e $DIR ] then mkdir -p $DIR fi 4.3.2 双分支的if条件语句\n第七章 使用RAID与LVM磁盘阵列技术  RAID（独立冗余磁盘阵列） LVM（逻辑卷管理器）  RAID 0 技术，至少两块，通过硬件或软件的方式串联在一起。\nRAID 1 技术，将两块以上的硬盘设备进行绑定（镜像备份）。\nRAID 5 技术，将硬盘设备的数据奇偶校验信息保存到其他硬盘设备中。\nRAID 10 技术（常用），至少4块硬盘来组建，是RAID 1 + RAID 0 的组合体。先组合为RAID 1 ，再实施 RAID 0 技术\nmdadm 命令用于管理Linux系统中的软件的 RAID 硬盘阵列\n先创建 raid ，再格式化，再挂载，再设置开机自动挂载\n磁盘阵列+备份盘：RAID 5 + 备份盘\n7.2 LVM（逻辑卷管理器）\n","wordCount":"657","inLanguage":"en","datePublished":"2022-05-29T22:19:51+08:00","dateModified":"2022-05-29T22:19:51+08:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://peiyafei.github.io/post/linux%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"},"publisher":{"@type":"Organization","name":"Qt开发","logo":{"@type":"ImageObject","url":"https://peiyafei.github.io/%3Clink%20/%20abs%20url%3E"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -120,7 +120,7 @@ Linux就该这么学
 <h1 class=post-title>
 Linux学习总结
 </h1>
-<div class=post-meta><span title="2022-05-29 22:19:51 +0800 CST">May 29, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href=https://github.com/%3cpath_to_repo%3e/content/post/linux%e5%ad%a6%e4%b9%a0%e6%80%bb%e7%bb%93.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta><span title="2022-05-29 22:19:51 +0800 CST">May 29, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href=https://github.com/%3cpath_to_repo%3e/content/post/linux%e5%ad%a6%e4%b9%a0%e6%80%bb%e7%bb%93.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
 </div>
 </header> <div class=toc>
 <details>
@@ -162,7 +162,16 @@ Linux学习总结
 <li>
 <a href=#%e7%ac%ac%e5%9b%9b%e7%ab%a0-vim%e7%bc%96%e8%be%91%e5%99%a8%e4%b8%8eshell%e5%91%bd%e4%bb%a4%e8%84%9a%e6%9c%ac aria-label="第四章 vim编辑器与shell命令脚本">第四章 vim编辑器与shell命令脚本</a><ul>
 <li>
-<a href=#41-vim%e6%96%87%e6%9c%ac%e7%bc%96%e8%be%91%e5%99%a8 aria-label="4.1 vim文本编辑器">4.1 vim文本编辑器</a></li>
+<a href=#41-vim%e6%96%87%e6%9c%ac%e7%bc%96%e8%be%91%e5%99%a8 aria-label="4.1 vim文本编辑器">4.1 vim文本编辑器</a><ul>
+<li>
+<a href=#411-%e7%bc%96%e5%86%99%e7%ae%80%e5%8d%95%e6%96%87%e6%a1%a3 aria-label="4.1.1 编写简单文档">4.1.1 编写简单文档</a></li>
+<li>
+<a href=#412-%e9%85%8d%e7%bd%ae%e4%b8%bb%e6%9c%ba%e5%90%8d%e7%a7%b0 aria-label="4.1.2 配置主机名称">4.1.2 配置主机名称</a></li>
+<li>
+<a href=#413-%e9%85%8d%e7%bd%ae%e7%bd%91%e5%8d%a1%e4%bf%a1%e6%81%af aria-label="4.1.3 配置网卡信息">4.1.3 配置网卡信息</a></li>
+<li>
+<a href=#414-%e9%85%8d%e7%bd%aeyum%e8%bd%af%e4%bb%b6%e4%bb%93%e5%ba%93 aria-label="4.1.4 配置Yum软件仓库">4.1.4 配置Yum软件仓库</a></li></ul>
+</li>
 <li>
 <a href=#42-%e7%bc%96%e5%86%99shell%e8%84%9a%e6%9c%ac aria-label="4.2 编写Shell脚本">4.2 编写Shell脚本</a></li>
 <li>
@@ -528,21 +537,52 @@ Linux学习总结
 <li>输入模式</li>
 <li>末行模式</li>
 </ul>
-<p>4.1.1 编写简单文档</p>
-<p>4.1.2 配置主机名称</p>
+<h3 id=411-编写简单文档>4.1.1 编写简单文档<a hidden class=anchor aria-hidden=true href=#411-编写简单文档>#</a></h3>
+<h3 id=412-配置主机名称>4.1.2 配置主机名称<a hidden class=anchor aria-hidden=true href=#412-配置主机名称>#</a></h3>
 <pre tabindex=0><code># vim /etc/hostname
 
 </code></pre><p>查看主机名</p>
 <pre tabindex=0><code># hostname
 
-</code></pre><p>4.13 配置网卡信息</p>
+</code></pre><h3 id=413-配置网卡信息>4.1.3 配置网卡信息<a hidden class=anchor aria-hidden=true href=#413-配置网卡信息>#</a></h3>
 <pre tabindex=0><code># vim /etc/sysconfig/network-scripts/ifcfg-eno16777728
 
 </code></pre><p>重启网卡配置</p>
 <pre tabindex=0><code># systemctl restart network
 
-</code></pre><p>4.1.4 配置Yum软件仓库</p>
-<p>需要试验（未完成）</p>
+</code></pre><h3 id=414-配置yum软件仓库>4.1.4 配置Yum软件仓库<a hidden class=anchor aria-hidden=true href=#414-配置yum软件仓库>#</a></h3>
+<ol>
+<li>
+<p>在/etc/yum.repos.d目录中创建rhel7.repo文件</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#75715e># vim /etc/yum.repos.d/rhel7.repo</span>
+</code></pre></div></li>
+<li>
+<p>新建/media/cdrom目录</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#75715e># mkdir /media/cdrom/</span>
+</code></pre></div></li>
+<li>
+<p>编辑配置文件</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#f92672>[</span>rhel7<span style=color:#f92672>]</span>
+name<span style=color:#f92672>=</span>rhel7
+baseurl<span style=color:#f92672>=</span>file:///media/cdrom
+enabled<span style=color:#f92672>=</span><span style=color:#ae81ff>1</span>
+gpgcheck<span style=color:#f92672>=</span><span style=color:#ae81ff>0</span>
+</code></pre></div></li>
+<li>
+<p>手动挂载</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#75715e># mount  /dev/cdrom /media/cdrom/</span>
+</code></pre></div></li>
+<li>
+<p>设置开机自动挂载</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#75715e># vim /etc/fstab</span>
+</code></pre></div><p>追加如下代码</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>/dev/cdrom /media/cdrom iso9660 defaults <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>0</span> 
+</code></pre></div></li>
+<li>
+<p>安装httpd以验证仓库配置结果</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#75715e># yum install httpd -y</span>
+</code></pre></div></li>
+</ol>
 <h2 id=42-编写shell脚本>4.2 编写Shell脚本<a hidden class=anchor aria-hidden=true href=#42-编写shell脚本>#</a></h2>
 <p>4.2.1 编写简单的脚本</p>
 <pre tabindex=0><code># vim example1.sh
