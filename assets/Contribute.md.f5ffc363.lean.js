@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a}from"./app.decefe93.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Contribute.md"}'),n={name:"Contribute.md"},r=a("p",null,"这是一个捐赠页面",-1),s=[r];function c(_,i,d,p,l,u){return o(),e("div",null,s)}const h=t(n,[["render",c]]);export{f as __pageData,h as default};
