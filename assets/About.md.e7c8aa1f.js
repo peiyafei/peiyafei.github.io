@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a}from"./app.decefe93.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"About.md"}'),s={name:"About.md"},n=a("p",null,"#本站定位",-1),r=[n];function c(_,d,p,i,l,u){return o(),e("div",null,r)}const h=t(s,[["render",c]]);export{f as __pageData,h as default};
