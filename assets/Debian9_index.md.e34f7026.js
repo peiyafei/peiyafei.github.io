@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,b as n}from"./app.ebc34043.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Debian9/index.md"}'),o={name:"Debian9/index.md"},s=n("p",null,"Debian9 前言介绍",-1),r=[s];function c(i,d,_,p,l,m){return a(),t("div",null,r)}const x=e(o,[["render",c]]);export{u as __pageData,x as default};

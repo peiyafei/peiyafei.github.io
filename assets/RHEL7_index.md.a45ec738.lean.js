@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as n}from"./app.decefe93.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"RHEL7/index.md"}'),o={name:"RHEL7/index.md"},s=n("p",null,"RHEL7 前言介绍",-1),r=[s];function c(d,_,i,p,l,m){return a(),t("div",null,r)}const x=e(o,[["render",c]]);export{u as __pageData,x as default};
