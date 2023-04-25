@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,a as r}from"./app.d3dab50f.js";const m=JSON.parse('{"title":"chattr命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/02_chattr.md"}'),_={name:"CMD/01文件管理/02_chattr.md"},p=r("",10),c=[p];function o(s,n,h,d,i,l){return e(),a("div",null,c)}const g=t(_,[["render",o]]);export{m as __pageData,g as default};

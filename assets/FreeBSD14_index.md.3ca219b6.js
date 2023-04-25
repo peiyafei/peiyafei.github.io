@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,b as n}from"./app.d3dab50f.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"FreeBSD14/index.md"}'),o={name:"FreeBSD14/index.md"},r=n("p",null,"FreeBSD14 前言介绍",-1),s=[r];function c(d,_,i,p,l,m){return a(),t("div",null,s)}const x=e(o,[["render",c]]);export{u as __pageData,x as default};
