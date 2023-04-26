@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,b as r}from"./app.af30e130.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/02_chattr.md"}'),c={name:"CMD/01文件管理/02_chattr.md"},o=r("p",null,"chattr",-1),s=[o];function n(_,d,p,i,l,h){return a(),e("div",null,s)}const u=t(c,[["render",n]]);export{f as __pageData,u as default};

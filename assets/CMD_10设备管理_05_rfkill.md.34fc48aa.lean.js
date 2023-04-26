@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.af30e130.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/10设备管理/05_rfkill.md"}'),a={name:"CMD/10设备管理/05_rfkill.md"};function o(s,c,n,_,i,l){return r(),t("div")}const d=e(a,[["render",o]]);export{f as __pageData,d as default};

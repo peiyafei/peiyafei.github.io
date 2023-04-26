@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.af30e130.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/10设备管理/06_setpci.md"}'),s={name:"CMD/10设备管理/06_setpci.md"};function c(r,o,n,_,p,i){return a(),t("div")}const f=e(s,[["render",c]]);export{m as __pageData,f as default};

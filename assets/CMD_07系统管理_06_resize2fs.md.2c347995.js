@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./app.af30e130.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/06_resize2fs.md"}'),r={name:"CMD/07系统管理/06_resize2fs.md"};function a(o,c,n,_,i,p){return s(),t("div")}const m=e(r,[["render",a]]);export{d as __pageData,m as default};

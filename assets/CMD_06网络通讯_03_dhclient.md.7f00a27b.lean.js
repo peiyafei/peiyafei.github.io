@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.af30e130.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/03_dhclient.md"}'),c={name:"CMD/06网络通讯/03_dhclient.md"};function n(r,o,s,_,d,i){return a(),t("div")}const m=e(c,[["render",n]]);export{l as __pageData,m as default};

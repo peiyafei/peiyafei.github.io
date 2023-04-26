@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./app.af30e130.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/10设备管理/01_mount.md"}'),a={name:"CMD/10设备管理/01_mount.md"};function n(r,s,c,_,m,p){return o(),e("div")}const f=t(a,[["render",n]]);export{i as __pageData,f as default};
