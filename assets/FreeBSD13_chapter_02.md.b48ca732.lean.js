@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,b as r}from"./app.af30e130.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"FreeBSD13/chapter_02.md"}'),c={name:"FreeBSD13/chapter_02.md"},o=r("p",null,"rhel9-chapter_02",-1),s=[o];function n(_,p,d,i,l,h){return a(),t("div",null,s)}const u=e(c,[["render",n]]);export{f as __pageData,u as default};

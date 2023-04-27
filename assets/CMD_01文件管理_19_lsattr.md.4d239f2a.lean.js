@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as e,a as n}from"./app.af30e130.js";const T=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/19_lsattr.md"}'),o={name:"CMD/01文件管理/19_lsattr.md"},p=n("",6),s=[p];function i(l,r,_,c,d,h){return e(),a("div",null,s)}const m=t(o,[["render",i]]);export{T as __pageData,m as default};

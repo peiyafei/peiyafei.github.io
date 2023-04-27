@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,b as a}from"./app.01106fa1.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Tools/index.md"}'),s={name:"Tools/index.md"},n=a("p",null,"Vwamre WorkStation",-1),r=[n];function c(d,i,_,l,p,m){return o(),t("div",null,r)}const x=e(s,[["render",c]]);export{u as __pageData,x as default};

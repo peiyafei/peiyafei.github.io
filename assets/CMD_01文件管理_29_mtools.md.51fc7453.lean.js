@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a}from"./app.01106fa1.js";const m=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/29_mtools.md"}'),n={name:"CMD/01文件管理/29_mtools.md"},p=a("",6),s=[p];function i(l,r,_,c,d,h){return o(),e("div",null,s)}const T=t(n,[["render",i]]);export{m as __pageData,T as default};

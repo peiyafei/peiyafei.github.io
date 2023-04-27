@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.01106fa1.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/10_hdparm.md"}'),r={name:"CMD/05磁盘维护/10_hdparm.md"};function o(s,c,n,_,p,d){return a(),t("div")}const f=e(r,[["render",o]]);export{i as __pageData,f as default};
