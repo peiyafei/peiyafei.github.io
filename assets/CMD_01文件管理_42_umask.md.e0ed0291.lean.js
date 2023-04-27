@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,a as n}from"./app.813ec696.js";const m=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/42_umask.md"}'),o={name:"CMD/01文件管理/42_umask.md"},p=n("",6),s=[p];function i(l,r,_,c,d,u){return e(),a("div",null,s)}const T=t(o,[["render",i]]);export{m as __pageData,T as default};

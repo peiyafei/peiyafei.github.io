@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.813ec696.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/42_ulimit.md"}'),r={name:"CMD/08系统设置/42_ulimit.md"};function o(s,c,i,n,_,m){return a(),e("div")}const l=t(r,[["render",o]]);export{d as __pageData,l as default};

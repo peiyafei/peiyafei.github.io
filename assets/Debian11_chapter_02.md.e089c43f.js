@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,b as r}from"./app.813ec696.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Debian11/chapter_02.md"}'),c={name:"Debian11/chapter_02.md"},n=r("p",null,"Debian11-chapter_02",-1),o=[n];function s(_,p,i,d,l,h){return a(),t("div",null,o)}const u=e(c,[["render",s]]);export{f as __pageData,u as default};

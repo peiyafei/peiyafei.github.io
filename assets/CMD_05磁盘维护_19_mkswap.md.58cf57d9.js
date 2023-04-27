@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.08249d88.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/19_mkswap.md"}'),s={name:"CMD/05磁盘维护/19_mkswap.md"};function r(o,c,n,_,p,m){return a(),t("div")}const f=e(s,[["render",r]]);export{i as __pageData,f as default};

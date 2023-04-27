@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,b as n}from"./app.08249d88.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"RHEL9/index.md"}'),o={name:"RHEL9/index.md"},s=n("p",null,"RHEL9 前言介绍",-1),r=[s];function c(d,_,i,p,l,m){return a(),t("div",null,r)}const x=e(o,[["render",c]]);export{u as __pageData,x as default};

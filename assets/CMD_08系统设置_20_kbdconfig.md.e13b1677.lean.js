@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.813ec696.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/20_kbdconfig.md"}'),a={name:"CMD/08系统设置/20_kbdconfig.md"};function c(n,r,s,_,d,i){return o(),t("div")}const m=e(a,[["render",c]]);export{f as __pageData,m as default};

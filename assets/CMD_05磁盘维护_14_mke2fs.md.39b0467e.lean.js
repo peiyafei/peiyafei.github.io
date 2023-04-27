@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.813ec696.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/14_mke2fs.md"}'),s={name:"CMD/05磁盘维护/14_mke2fs.md"};function r(o,c,n,_,m,p){return a(),t("div")}const i=e(s,[["render",r]]);export{d as __pageData,i as default};

@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app.08249d88.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/20_mpartition.md"}'),r={name:"CMD/05磁盘维护/20_mpartition.md"};function o(n,s,c,i,_,p){return a(),e("div")}const f=t(r,[["render",o]]);export{d as __pageData,f as default};

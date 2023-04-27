@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a,a as o}from"./app.08249d88.js";const m=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/04_chmod.md"}'),n={name:"CMD/01文件管理/04_chmod.md"},p=o("",6),i=[p];function s(l,c,r,_,d,h){return a(),e("div",null,i)}const T=t(n,[["render",s]]);export{m as __pageData,T as default};

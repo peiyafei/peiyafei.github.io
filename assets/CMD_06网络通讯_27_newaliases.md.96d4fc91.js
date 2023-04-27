@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t}from"./app.08249d88.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/27_newaliases.md"}'),s={name:"CMD/06网络通讯/27_newaliases.md"};function n(r,o,c,_,i,p){return t(),a("div")}const m=e(s,[["render",n]]);export{l as __pageData,m as default};

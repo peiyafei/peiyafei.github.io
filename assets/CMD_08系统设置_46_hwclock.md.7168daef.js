@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as c}from"./app.08249d88.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/46_hwclock.md"}'),o={name:"CMD/08系统设置/46_hwclock.md"};function a(r,s,n,_,p,d){return c(),t("div")}const m=e(o,[["render",a]]);export{l as __pageData,m as default};
