@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a as p}from"./app.5d53e1b2.js";const T=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/52_updatedb.md"}'),n={name:"CMD/01文件管理/52_updatedb.md"},o=p("",6),i=[o];function s(l,r,_,c,d,u){return a(),e("div",null,i)}const b=t(n,[["render",s]]);export{T as __pageData,b as default};

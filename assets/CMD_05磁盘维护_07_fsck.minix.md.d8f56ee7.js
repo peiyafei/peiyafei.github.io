@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.813ec696.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/07_fsck.minix.md"}'),s={name:"CMD/05磁盘维护/07_fsck.minix.md"};function c(n,r,o,_,i,m){return a(),t("div")}const d=e(s,[["render",c]]);export{f as __pageData,d as default};

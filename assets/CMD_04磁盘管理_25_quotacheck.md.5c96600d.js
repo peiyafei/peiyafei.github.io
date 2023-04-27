@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.5d53e1b2.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/04磁盘管理/25_quotacheck.md"}'),c={name:"CMD/04磁盘管理/25_quotacheck.md"};function o(r,s,n,_,p,d){return a(),t("div")}const f=e(c,[["render",o]]);export{m as __pageData,f as default};

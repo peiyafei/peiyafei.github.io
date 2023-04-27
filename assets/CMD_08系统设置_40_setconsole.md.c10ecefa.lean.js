@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.813ec696.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/40_setconsole.md"}'),s={name:"CMD/08系统设置/40_setconsole.md"};function a(c,n,r,_,p,d){return o(),t("div")}const m=e(s,[["render",a]]);export{l as __pageData,m as default};
