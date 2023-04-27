@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.d0b4556d.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/19_insmod.md"}'),a={name:"CMD/08系统设置/19_insmod.md"};function s(n,r,c,_,d,i){return o(),t("div")}const f=e(a,[["render",s]]);export{p as __pageData,f as default};

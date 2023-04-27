@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.08249d88.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/48_skill.md"}'),s={name:"CMD/07系统管理/48_skill.md"};function r(o,c,n,_,i,l){return a(),t("div")}const m=e(s,[["render",r]]);export{d as __pageData,m as default};

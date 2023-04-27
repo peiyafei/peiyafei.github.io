@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.08249d88.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/03文件传输/08_uupick.md"}'),c={name:"CMD/03文件传输/08_uupick.md"};function r(o,s,n,_,p,i){return a(),t("div")}const m=e(c,[["render",r]]);export{d as __pageData,m as default};

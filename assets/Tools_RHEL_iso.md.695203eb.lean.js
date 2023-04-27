@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as t,b as s}from"./app.d0b4556d.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Tools/RHEL_iso.md"}'),a={name:"Tools/RHEL_iso.md"},n=s("p",null,"RHEL镜像",-1),r=[n];function c(_,i,d,l,p,m){return t(),o("div",null,r)}const h=e(a,[["render",c]]);export{u as __pageData,h as default};

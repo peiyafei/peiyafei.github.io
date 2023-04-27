@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.d0b4556d.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/06_finger.md"}'),a={name:"CMD/07系统管理/06_finger.md"};function n(o,s,c,_,i,p){return r(),t("div")}const m=e(a,[["render",n]]);export{d as __pageData,m as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as c}from"./app.d0b4556d.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/44_chkconfig.md"}'),o={name:"CMD/08系统设置/44_chkconfig.md"};function a(n,r,s,_,i,p){return c(),t("div")}const m=e(o,[["render",a]]);export{d as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.08249d88.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/23_pstree.md"}'),a={name:"CMD/07系统管理/23_pstree.md"};function s(o,c,n,_,p,d){return r(),t("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};
