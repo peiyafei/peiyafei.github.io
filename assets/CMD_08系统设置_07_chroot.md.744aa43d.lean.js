@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./app.d0b4556d.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/07_chroot.md"}'),r={name:"CMD/08系统设置/07_chroot.md"};function a(c,s,n,_,p,d){return o(),e("div")}const f=t(r,[["render",a]]);export{m as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.d0b4556d.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/03文件传输/13_ftpshut.md"}'),s={name:"CMD/03文件传输/13_ftpshut.md"};function r(o,c,n,_,p,f){return a(),e("div")}const m=t(s,[["render",r]]);export{i as __pageData,m as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,b as n}from"./app.01106fa1.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"FreeBSD13/index.md"}'),o={name:"FreeBSD13/index.md"},r=n("p",null,"FreeBSD13 前言介绍",-1),s=[r];function c(d,_,i,p,l,m){return a(),t("div",null,s)}const x=e(o,[["render",c]]);export{u as __pageData,x as default};

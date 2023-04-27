@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.01106fa1.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/03文件传输/01_lprm.md"}'),a={name:"CMD/03文件传输/01_lprm.md"};function o(s,c,n,_,p,m){return r(),t("div")}const l=e(a,[["render",o]]);export{i as __pageData,l as default};
