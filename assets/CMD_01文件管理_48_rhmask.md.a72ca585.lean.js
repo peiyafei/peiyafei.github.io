@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,a as n}from"./app.837b0b87.js";const m=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/48_rhmask.md"}'),o={name:"CMD/01文件管理/48_rhmask.md"},p=n("",6),s=[p];function i(r,l,_,c,d,h){return e(),a("div",null,s)}const T=t(o,[["render",i]]);export{m as __pageData,T as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.837b0b87.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/22_liloconfig.md"}'),a={name:"CMD/08系统设置/22_liloconfig.md"};function c(n,r,s,i,_,l){return o(),t("div")}const d=e(a,[["render",c]]);export{f as __pageData,d as default};

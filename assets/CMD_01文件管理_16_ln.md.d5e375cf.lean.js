@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as n,a}from"./app.837b0b87.js";const T=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/16_ln.md"}'),o={name:"CMD/01文件管理/16_ln.md"},p=a("",6),i=[p];function l(s,r,_,c,d,h){return n(),e("div",null,i)}const m=t(o,[["render",l]]);export{T as __pageData,m as default};
