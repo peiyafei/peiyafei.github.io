@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,a as p}from"./app.b3de07f0.js";const m=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/40_tmpwatch.md"}'),n={name:"CMD/01文件管理/40_tmpwatch.md"},o=p("",6),i=[o];function s(l,c,r,_,d,h){return e(),a("div",null,i)}const T=t(n,[["render",s]]);export{m as __pageData,T as default};

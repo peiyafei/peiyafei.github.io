@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.2d788bb1.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/20_nice.md"}'),c={name:"CMD/07系统管理/20_nice.md"};function n(r,o,s,_,i,p){return a(),t("div")}const f=e(c,[["render",n]]);export{m as __pageData,f as default};

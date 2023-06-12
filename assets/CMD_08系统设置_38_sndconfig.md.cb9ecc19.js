@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./app.2d788bb1.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/38_sndconfig.md"}'),o={name:"CMD/08系统设置/38_sndconfig.md"};function a(s,c,r,_,d,i){return n(),t("div")}const m=e(o,[["render",a]]);export{f as __pageData,m as default};

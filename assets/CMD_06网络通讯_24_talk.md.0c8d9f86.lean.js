@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.b3de07f0.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/24_talk.md"}'),r={name:"CMD/06网络通讯/24_talk.md"};function o(s,c,n,_,p,d){return a(),e("div")}const m=t(r,[["render",o]]);export{l as __pageData,m as default};

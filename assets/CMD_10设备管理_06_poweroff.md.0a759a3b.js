@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.b3de07f0.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/10设备管理/06_poweroff.md"}'),r={name:"CMD/10设备管理/06_poweroff.md"};function a(s,c,n,_,p,f){return o(),t("div")}const m=e(r,[["render",a]]);export{i as __pageData,m as default};

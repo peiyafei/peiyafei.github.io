@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.2d788bb1.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/21_procinfo.md"}'),r={name:"CMD/07系统管理/21_procinfo.md"};function a(c,n,s,_,p,i){return o(),t("div")}const m=e(r,[["render",a]]);export{d as __pageData,m as default};

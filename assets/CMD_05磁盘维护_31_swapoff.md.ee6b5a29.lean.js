@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.b3de07f0.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/31_swapoff.md"}'),o={name:"CMD/05磁盘维护/31_swapoff.md"};function s(r,c,n,_,p,f){return a(),t("div")}const m=e(o,[["render",s]]);export{i as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as c}from"./app.b3de07f0.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/03文件传输/10_uucico.md"}'),o={name:"CMD/03文件传输/10_uucico.md"};function a(r,s,n,_,i,p){return c(),t("div")}const m=e(o,[["render",a]]);export{d as __pageData,m as default};
