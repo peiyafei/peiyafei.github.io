@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.2d788bb1.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/15_lastb.md"}'),s={name:"CMD/07系统管理/15_lastb.md"};function r(o,c,n,_,p,d){return a(),e("div")}const m=t(s,[["render",r]]);export{l as __pageData,m as default};

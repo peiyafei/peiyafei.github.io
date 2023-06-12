@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.837b0b87.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/04磁盘管理/11_mlabel.md"}'),r={name:"CMD/04磁盘管理/11_mlabel.md"};function o(s,c,n,_,l,m){return a(),t("div")}const i=e(r,[["render",o]]);export{d as __pageData,i as default};

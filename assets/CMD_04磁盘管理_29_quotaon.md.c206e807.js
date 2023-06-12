@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./app.2d788bb1.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/04磁盘管理/29_quotaon.md"}'),a={name:"CMD/04磁盘管理/29_quotaon.md"};function n(r,s,c,_,p,d){return o(),e("div")}const f=t(a,[["render",n]]);export{m as __pageData,f as default};

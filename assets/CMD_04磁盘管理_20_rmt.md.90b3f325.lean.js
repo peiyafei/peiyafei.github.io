@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as r}from"./app.837b0b87.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/04磁盘管理/20_rmt.md"}'),a={name:"CMD/04磁盘管理/20_rmt.md"};function o(s,c,n,_,m,p){return r(),e("div")}const f=t(a,[["render",o]]);export{i as __pageData,f as default};

@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a,a as o}from"./app.837b0b87.js";const T=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/41_touch.md"}'),n={name:"CMD/01文件管理/41_touch.md"},p=o("",6),i=[p];function s(l,c,r,_,d,h){return a(),e("div",null,i)}const m=t(n,[["render",s]]);export{T as __pageData,m as default};

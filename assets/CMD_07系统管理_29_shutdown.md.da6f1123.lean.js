@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./app.2d788bb1.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/29_shutdown.md"}'),a={name:"CMD/07系统管理/29_shutdown.md"};function s(n,r,c,_,d,p){return o(),e("div")}const f=t(a,[["render",s]]);export{m as __pageData,f as default};

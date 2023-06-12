@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.2d788bb1.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/09备份压缩/08_cpio.md"}'),a={name:"CMD/09备份压缩/08_cpio.md"};function c(r,s,n,_,p,i){return o(),t("div")}const f=e(a,[["render",c]]);export{m as __pageData,f as default};

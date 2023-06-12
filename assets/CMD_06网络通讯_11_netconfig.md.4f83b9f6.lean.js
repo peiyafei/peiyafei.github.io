@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./app.837b0b87.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/11_netconfig.md"}'),o={name:"CMD/06网络通讯/11_netconfig.md"};function a(c,r,s,_,i,p){return n(),t("div")}const m=e(o,[["render",a]]);export{d as __pageData,m as default};
