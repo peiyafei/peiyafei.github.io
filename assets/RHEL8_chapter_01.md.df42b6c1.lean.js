@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as r,a as t}from"./app.158ee770.js";const f=JSON.parse('{"title":"1.1 准备所需的工具","description":"","frontmatter":{},"headers":[],"relativePath":"RHEL8/chapter_01.md"}'),_={name:"RHEL8/chapter_01.md"},h=t("",5),d=[h];function n(i,o,c,s,l,p){return r(),e("div",null,d)}const x=a(_,[["render",n]]);export{f as __pageData,x as default};
