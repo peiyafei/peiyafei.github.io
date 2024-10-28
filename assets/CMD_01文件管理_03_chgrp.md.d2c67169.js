@@ -1,0 +1,8 @@
+import{_ as s,c as n,o as a,a as e}from"./app.99e343b5.js";const C=JSON.parse('{"title":"cat 命令","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/03_chgrp.md"}'),p={name:"CMD/01文件管理/03_chgrp.md"},t=e(`<h1 id="cat-命令" tabindex="-1">cat 命令 <a class="header-anchor" href="#cat-命令" aria-hidden="true">#</a></h1><p>chgrp是change group的缩写，在Linux中 chgrp 命令可以变更文件与目录所属群组，设置方式采用群组名称或群组识别码都可以，但是要被改变的组名必须要在/etc/group文件内存在才行</p><p><strong>1、语法：</strong> chgrp [选项] [组] [文件]</p><p><strong>2、功能：</strong></p><p>可采用群组名称或群组识别码的方式改变文件或目录的所属群组，使用权限是超级用户</p><p><strong>3、参数：</strong></p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">-c或--changes  效果类似&quot;-v&quot;参数，但仅回显更改的部分。 </span></span>
+<span class="line"><span style="color:#A6ACCD;">-f或--quiet或--silent 　不显示错误信息。 </span></span>
+<span class="line"><span style="color:#A6ACCD;">-h或--no-dereference 　只对符号连接的文件作修改，而不更动其他任何相关文件。 </span></span>
+<span class="line"><span style="color:#A6ACCD;">-R或--recursive 　递归处理，将指定目录下的所有文件及子目录一并处理。、 </span></span>
+<span class="line"><span style="color:#A6ACCD;">-v或--verbose 　显示指令执行过程。 </span></span>
+<span class="line"><span style="color:#A6ACCD;">--reference=&lt;参考文件或目录&gt; 　把指定文件或目录的所属群组全部设成和参考文件或目录的所属群组相同。 </span></span>
+<span class="line"><span style="color:#A6ACCD;">--dereference   作用于符号链接的指向，而不是符号链接本身。</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p><strong>4、常用范例：</strong></p>`,8),c=[t];function o(r,l,i,_,d,g){return a(),n("div",null,c)}const A=s(p,[["render",o]]);export{C as __pageData,A as default};

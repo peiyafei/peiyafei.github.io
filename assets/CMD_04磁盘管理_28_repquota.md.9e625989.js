@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.158ee770.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/04磁盘管理/28_repquota.md"}'),r={name:"CMD/04磁盘管理/28_repquota.md"};function o(s,c,n,_,p,d){return a(),t("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

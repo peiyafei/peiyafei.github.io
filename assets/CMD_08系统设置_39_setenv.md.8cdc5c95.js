@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.158ee770.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/39_setenv.md"}'),s={name:"CMD/08系统设置/39_setenv.md"};function n(r,o,c,_,p,d){return a(),t("div")}const f=e(s,[["render",n]]);export{m as __pageData,f as default};

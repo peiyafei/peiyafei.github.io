@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n,b as a}from"./app.99e343b5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/index.md"}'),o={name:"CMD/index.md"},s=a("p",null,"Linux 命令大全 点击左侧列表展开可查询各个命令操作说明",-1),r=[s];function c(d,i,_,p,l,m){return n(),t("div",null,r)}const x=e(o,[["render",c]]);export{u as __pageData,x as default};

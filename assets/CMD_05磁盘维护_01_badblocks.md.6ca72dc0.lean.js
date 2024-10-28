@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.158ee770.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/01_badblocks.md"}'),o={name:"CMD/05磁盘维护/01_badblocks.md"};function s(c,r,n,_,d,p){return a(),t("div")}const m=e(o,[["render",s]]);export{l as __pageData,m as default};

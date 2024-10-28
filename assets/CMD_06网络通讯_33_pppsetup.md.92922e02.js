@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as p}from"./app.99e343b5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/33_pppsetup.md"}'),a={name:"CMD/06网络通讯/33_pppsetup.md"};function s(r,o,c,n,_,d){return p(),t("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};

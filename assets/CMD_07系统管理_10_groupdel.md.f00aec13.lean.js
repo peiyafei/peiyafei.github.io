@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.99e343b5.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/10_groupdel.md"}'),o={name:"CMD/07系统管理/10_groupdel.md"};function a(s,c,n,_,p,d){return r(),t("div")}const m=e(o,[["render",a]]);export{l as __pageData,m as default};
