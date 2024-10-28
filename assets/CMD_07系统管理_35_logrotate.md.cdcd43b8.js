@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./app.ef4ea49c.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/35_logrotate.md"}'),a={name:"CMD/07系统管理/35_logrotate.md"};function r(s,c,n,_,p,d){return o(),e("div")}const m=t(a,[["render",r]]);export{l as __pageData,m as default};

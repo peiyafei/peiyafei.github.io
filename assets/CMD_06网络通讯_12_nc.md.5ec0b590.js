@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.ef4ea49c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/12_nc.md"}'),c={name:"CMD/06网络通讯/12_nc.md"};function n(r,o,s,_,p,d){return a(),t("div")}const f=e(c,[["render",n]]);export{m as __pageData,f as default};

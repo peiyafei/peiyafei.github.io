@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.ef4ea49c.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/03文件传输/02_lpr.md"}'),a={name:"CMD/03文件传输/02_lpr.md"};function o(s,c,n,_,p,d){return r(),t("div")}const m=e(a,[["render",o]]);export{l as __pageData,m as default};

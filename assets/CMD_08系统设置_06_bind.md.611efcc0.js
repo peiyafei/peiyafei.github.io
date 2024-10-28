@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.b3de07f0.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/06_bind.md"}'),n={name:"CMD/08系统设置/06_bind.md"};function r(o,s,c,_,d,i){return a(),t("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};

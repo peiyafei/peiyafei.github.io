@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.ef4ea49c.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/34_tload.md"}'),o={name:"CMD/07系统管理/34_tload.md"};function r(s,c,n,_,d,p){return a(),e("div")}const m=t(o,[["render",r]]);export{l as __pageData,m as default};
