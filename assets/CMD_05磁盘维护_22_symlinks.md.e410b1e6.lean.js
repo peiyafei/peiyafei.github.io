@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s}from"./app.02b22bd8.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/22_symlinks.md"}'),a={name:"CMD/05磁盘维护/22_symlinks.md"};function n(r,o,c,_,i,m){return s(),t("div")}const l=e(a,[["render",n]]);export{d as __pageData,l as default};

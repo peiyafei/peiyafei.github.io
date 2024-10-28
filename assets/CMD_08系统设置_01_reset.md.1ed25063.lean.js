@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.158ee770.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/01_reset.md"}'),a={name:"CMD/08系统设置/01_reset.md"};function s(o,c,n,_,p,d){return r(),t("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};

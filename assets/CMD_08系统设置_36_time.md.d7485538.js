@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.02b22bd8.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/36_time.md"}'),r={name:"CMD/08系统设置/36_time.md"};function o(s,c,n,_,i,m){return a(),t("div")}const f=e(r,[["render",o]]);export{d as __pageData,f as default};
