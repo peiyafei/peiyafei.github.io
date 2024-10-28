@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as i,a as _}from"./app.ef4ea49c.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/01文件管理/02_chattr.md"}'),a={name:"CMD/01文件管理/02_chattr.md"},l=_("",3),c=[l];function o(r,s,n,p,d,h){return i(),e("div",null,c)}const u=t(a,[["render",o]]);export{f as __pageData,u as default};

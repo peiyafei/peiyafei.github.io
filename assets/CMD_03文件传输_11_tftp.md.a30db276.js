@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app.ef4ea49c.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/03文件传输/11_tftp.md"}'),r={name:"CMD/03文件传输/11_tftp.md"};function o(s,c,n,_,p,f){return a(),e("div")}const m=t(r,[["render",o]]);export{i as __pageData,m as default};

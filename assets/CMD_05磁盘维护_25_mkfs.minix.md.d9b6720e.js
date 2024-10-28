@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.ef4ea49c.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/25_mkfs.minix.md"}'),s={name:"CMD/05磁盘维护/25_mkfs.minix.md"};function n(r,o,_,c,i,m){return a(),t("div")}const d=e(s,[["render",n]]);export{f as __pageData,d as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.ef4ea49c.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/18_rpm.md"}'),a={name:"CMD/08系统设置/18_rpm.md"};function o(s,c,n,_,p,m){return r(),t("div")}const f=e(a,[["render",o]]);export{i as __pageData,f as default};

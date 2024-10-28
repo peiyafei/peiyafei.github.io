@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./app.02b22bd8.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/30_sfdisk.md"}'),a={name:"CMD/05磁盘维护/30_sfdisk.md"};function r(o,c,n,_,d,i){return s(),t("div")}const m=e(a,[["render",r]]);export{f as __pageData,m as default};

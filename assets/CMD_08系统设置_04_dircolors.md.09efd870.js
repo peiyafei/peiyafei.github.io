@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t}from"./app.02b22bd8.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/04_dircolors.md"}'),o={name:"CMD/08系统设置/04_dircolors.md"};function a(s,c,n,_,d,i){return t(),r("div")}const m=e(o,[["render",a]]);export{l as __pageData,m as default};
