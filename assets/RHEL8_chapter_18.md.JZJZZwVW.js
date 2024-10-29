@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"RHEL8/chapter_18.md","filePath":"RHEL8/chapter_18.md"}'),r={name:"RHEL8/chapter_18.md"};function c(o,s,n,p,_,d){return a(),t("div")}const f=e(r,[["render",c]]);export{m as __pageData,f as default};
