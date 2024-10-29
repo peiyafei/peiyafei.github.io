@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/10设备管理/06_poweroff.md","filePath":"CMD/10设备管理/06_poweroff.md"}'),r={name:"CMD/10设备管理/06_poweroff.md"};function a(f,s,_,c,n,p){return t(),o("div")}const m=e(r,[["render",a]]);export{i as __pageData,m as default};

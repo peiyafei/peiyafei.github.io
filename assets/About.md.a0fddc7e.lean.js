@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as r,a as t}from"./app.99e343b5.js";const m=JSON.parse('{"title":"本站定位","description":"","frontmatter":{},"headers":[],"relativePath":"About.md"}'),n={name:"About.md"},o=t("",12),d=[o];function h(i,c,p,s,_,l){return r(),a("div",null,d)}const f=e(n,[["render",h]]);export{m as __pageData,f as default};

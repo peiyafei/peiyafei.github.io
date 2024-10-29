@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/03文件传输/13_ftpshut.md","filePath":"CMD/03文件传输/13_ftpshut.md"}'),s={name:"CMD/03文件传输/13_ftpshut.md"};function r(o,_,c,n,p,f){return a(),e("div")}const m=t(s,[["render",r]]);export{i as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as c}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/08_clock.md","filePath":"CMD/08系统设置/08_clock.md"}'),o={name:"CMD/08系统设置/08_clock.md"};function a(r,s,_,n,l,p){return c(),t("div")}const m=e(o,[["render",a]]);export{i as __pageData,m as default};

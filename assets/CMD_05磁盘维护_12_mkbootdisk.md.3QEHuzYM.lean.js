@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/12_mkbootdisk.md","filePath":"CMD/05磁盘维护/12_mkbootdisk.md"}'),a={name:"CMD/05磁盘维护/12_mkbootdisk.md"};function s(r,_,c,n,d,i){return o(),e("div")}const k=t(a,[["render",s]]);export{p as __pageData,k as default};

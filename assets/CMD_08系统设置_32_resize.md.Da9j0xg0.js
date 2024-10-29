@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.CGHvQLJz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/32_resize.md","filePath":"CMD/08系统设置/32_resize.md"}'),a={name:"CMD/08系统设置/32_resize.md"};function s(o,_,c,n,i,p){return r(),t("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};

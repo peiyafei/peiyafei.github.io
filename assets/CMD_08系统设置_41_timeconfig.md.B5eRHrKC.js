@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/41_timeconfig.md","filePath":"CMD/08系统设置/41_timeconfig.md"}'),a={name:"CMD/08系统设置/41_timeconfig.md"};function c(n,i,r,s,_,m){return o(),t("div")}const d=e(a,[["render",c]]);export{p as __pageData,d as default};

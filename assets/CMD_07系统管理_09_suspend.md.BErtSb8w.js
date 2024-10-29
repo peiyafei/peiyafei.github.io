@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./chunks/framework.CGHvQLJz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/09_suspend.md","filePath":"CMD/07系统管理/09_suspend.md"}'),a={name:"CMD/07系统管理/09_suspend.md"};function n(r,o,_,c,p,d){return s(),t("div")}const f=e(a,[["render",n]]);export{m as __pageData,f as default};

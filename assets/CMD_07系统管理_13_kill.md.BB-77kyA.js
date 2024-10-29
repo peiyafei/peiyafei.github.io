@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/13_kill.md","filePath":"CMD/07系统管理/13_kill.md"}'),r={name:"CMD/07系统管理/13_kill.md"};function o(s,_,c,l,n,i){return a(),t("div")}const m=e(r,[["render",o]]);export{d as __pageData,m as default};

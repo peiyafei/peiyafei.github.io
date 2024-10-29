@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/35_logrotate.md","filePath":"CMD/07系统管理/35_logrotate.md"}'),a={name:"CMD/07系统管理/35_logrotate.md"};function r(s,_,c,n,l,p){return o(),e("div")}const m=t(a,[["render",r]]);export{i as __pageData,m as default};

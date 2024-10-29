@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.CGHvQLJz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/07_chroot.md","filePath":"CMD/08系统设置/07_chroot.md"}'),r={name:"CMD/08系统设置/07_chroot.md"};function a(c,s,_,n,p,d){return o(),e("div")}const f=t(r,[["render",a]]);export{m as __pageData,f as default};

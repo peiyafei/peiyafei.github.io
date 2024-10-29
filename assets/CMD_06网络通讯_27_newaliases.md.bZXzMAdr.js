@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./chunks/framework.CGHvQLJz.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/27_newaliases.md","filePath":"CMD/06网络通讯/27_newaliases.md"}'),s={name:"CMD/06网络通讯/27_newaliases.md"};function n(r,o,_,c,i,l){return t(),a("div")}const m=e(s,[["render",n]]);export{d as __pageData,m as default};

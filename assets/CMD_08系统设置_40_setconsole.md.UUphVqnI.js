@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/40_setconsole.md","filePath":"CMD/08系统设置/40_setconsole.md"}'),s={name:"CMD/08系统设置/40_setconsole.md"};function a(c,n,r,_,l,p){return o(),t("div")}const m=e(s,[["render",a]]);export{i as __pageData,m as default};

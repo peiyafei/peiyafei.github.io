@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/14_mke2fs.md","filePath":"CMD/05磁盘维护/14_mke2fs.md"}'),s={name:"CMD/05磁盘维护/14_mke2fs.md"};function r(o,_,c,n,m,f){return a(),t("div")}const i=e(s,[["render",r]]);export{d as __pageData,i as default};

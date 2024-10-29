@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/04磁盘管理/18_mmount.md","filePath":"CMD/04磁盘管理/18_mmount.md"}'),a={name:"CMD/04磁盘管理/18_mmount.md"};function n(r,m,s,_,c,p){return o(),e("div")}const f=t(a,[["render",n]]);export{i as __pageData,f as default};

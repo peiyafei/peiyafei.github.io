@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/38_testparm.md","filePath":"CMD/06网络通讯/38_testparm.md"}'),r={name:"CMD/06网络通讯/38_testparm.md"};function s(o,_,c,n,p,m){return a(),e("div")}const f=t(r,[["render",s]]);export{i as __pageData,f as default};

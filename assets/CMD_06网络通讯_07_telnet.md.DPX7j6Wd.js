@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/07_telnet.md","filePath":"CMD/06网络通讯/07_telnet.md"}'),n={name:"CMD/06网络通讯/07_telnet.md"};function r(o,s,_,c,l,p){return a(),t("div")}const m=e(n,[["render",r]]);export{i as __pageData,m as default};

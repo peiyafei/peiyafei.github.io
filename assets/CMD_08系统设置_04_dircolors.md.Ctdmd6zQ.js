@@ -1,0 +1,1 @@
+import{_ as e,c as r,o}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/04_dircolors.md","filePath":"CMD/08系统设置/04_dircolors.md"}'),t={name:"CMD/08系统设置/04_dircolors.md"};function a(s,c,_,n,d,i){return o(),r("div")}const m=e(t,[["render",a]]);export{p as __pageData,m as default};

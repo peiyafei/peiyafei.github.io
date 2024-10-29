@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/24_mbadblocks.md","filePath":"CMD/05磁盘维护/24_mbadblocks.md"}'),o={name:"CMD/05磁盘维护/24_mbadblocks.md"};function s(c,r,_,n,d,m){return a(),t("div")}const i=e(o,[["render",s]]);export{p as __pageData,i as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,b as n}from"./app.99e343b5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Debian12/index.md"}'),o={name:"Debian12/index.md"},s=n("p",null,"Debian11 前言介绍",-1),r=[s];function c(i,d,_,p,l,m){return a(),t("div",null,r)}const x=e(o,[["render",c]]);export{u as __pageData,x as default};

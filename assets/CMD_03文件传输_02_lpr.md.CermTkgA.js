@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/03文件传输/02_lpr.md","filePath":"CMD/03文件传输/02_lpr.md"}'),a={name:"CMD/03文件传输/02_lpr.md"};function o(s,_,c,n,p,l){return r(),t("div")}const m=e(a,[["render",o]]);export{i as __pageData,m as default};

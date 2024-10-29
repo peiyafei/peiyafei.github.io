@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.99e343b5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/28_screen.md"}'),a={name:"CMD/07系统管理/28_screen.md"};function s(c,n,o,_,p,d){return r(),t("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};

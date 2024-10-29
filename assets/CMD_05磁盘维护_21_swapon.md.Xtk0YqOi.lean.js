@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/21_swapon.md","filePath":"CMD/05磁盘维护/21_swapon.md"}'),o={name:"CMD/05磁盘维护/21_swapon.md"};function s(n,r,_,c,p,d){return a(),t("div")}const f=e(o,[["render",s]]);export{m as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/36_uname.md","filePath":"CMD/07系统管理/36_uname.md"}'),n={name:"CMD/07系统管理/36_uname.md"};function r(o,s,_,c,m,p){return a(),t("div")}const f=e(n,[["render",r]]);export{i as __pageData,f as default};

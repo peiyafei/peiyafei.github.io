@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/05_aumix.md","filePath":"CMD/08系统设置/05_aumix.md"}'),r={name:"CMD/08系统设置/05_aumix.md"};function o(s,_,c,n,i,m){return a(),t("div")}const f=e(r,[["render",o]]);export{d as __pageData,f as default};

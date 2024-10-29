@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"./chunks/framework.CGHvQLJz.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/21_procinfo.md","filePath":"CMD/07系统管理/21_procinfo.md"}'),r={name:"CMD/07系统管理/21_procinfo.md"};function a(c,n,s,_,p,i){return t(),o("div")}const m=e(r,[["render",a]]);export{d as __pageData,m as default};

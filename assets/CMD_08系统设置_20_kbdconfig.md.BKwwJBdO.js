@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/20_kbdconfig.md","filePath":"CMD/08系统设置/20_kbdconfig.md"}'),a={name:"CMD/08系统设置/20_kbdconfig.md"};function c(n,r,s,_,d,i){return o(),t("div")}const m=e(a,[["render",c]]);export{p as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/26_fsck.ext2.md","filePath":"CMD/05磁盘维护/26_fsck.ext2.md"}'),s={name:"CMD/05磁盘维护/26_fsck.ext2.md"};function c(r,o,_,n,f,p){return a(),t("div")}const m=e(s,[["render",c]]);export{i as __pageData,m as default};

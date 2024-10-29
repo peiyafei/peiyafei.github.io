@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/22_liloconfig.md","filePath":"CMD/08系统设置/22_liloconfig.md"}'),a={name:"CMD/08系统设置/22_liloconfig.md"};function c(n,i,r,s,_,l){return t(),o("div")}const d=e(a,[["render",c]]);export{p as __pageData,d as default};

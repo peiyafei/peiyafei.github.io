@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/25_mkfs.minix.md","filePath":"CMD/05磁盘维护/25_mkfs.minix.md"}'),s={name:"CMD/05磁盘维护/25_mkfs.minix.md"};function n(i,r,m,o,_,c){return a(),t("div")}const d=e(s,[["render",n]]);export{p as __pageData,d as default};

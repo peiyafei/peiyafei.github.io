@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/22_symlinks.md","filePath":"CMD/05磁盘维护/22_symlinks.md"}'),a={name:"CMD/05磁盘维护/22_symlinks.md"};function n(r,o,_,c,i,m){return s(),t("div")}const d=e(a,[["render",n]]);export{p as __pageData,d as default};

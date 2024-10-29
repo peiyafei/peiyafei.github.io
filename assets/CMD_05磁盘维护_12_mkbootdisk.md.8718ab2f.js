@@ -1,1 +1,0 @@
-import{_ as t,c as e,o}from"./app.99e343b5.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/12_mkbootdisk.md"}'),a={name:"CMD/05磁盘维护/12_mkbootdisk.md"};function s(r,c,n,_,d,i){return o(),e("div")}const k=t(a,[["render",s]]);export{p as __pageData,k as default};

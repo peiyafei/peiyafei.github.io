@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/17_dnsconf.md","filePath":"CMD/06网络通讯/17_dnsconf.md"}'),o={name:"CMD/06网络通讯/17_dnsconf.md"};function a(s,c,r,_,d,f){return n(),t("div")}const m=e(o,[["render",a]]);export{i as __pageData,m as default};

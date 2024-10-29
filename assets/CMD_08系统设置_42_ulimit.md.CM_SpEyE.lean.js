@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/42_ulimit.md","filePath":"CMD/08系统设置/42_ulimit.md"}'),i={name:"CMD/08系统设置/42_ulimit.md"};function r(o,s,_,c,n,m){return a(),e("div")}const d=t(i,[["render",r]]);export{p as __pageData,d as default};

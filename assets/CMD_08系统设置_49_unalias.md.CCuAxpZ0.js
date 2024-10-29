@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t}from"./chunks/framework.CGHvQLJz.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/49_unalias.md","filePath":"CMD/08系统设置/49_unalias.md"}'),s={name:"CMD/08系统设置/49_unalias.md"};function n(r,o,_,c,i,l){return t(),e("div")}const m=a(s,[["render",n]]);export{d as __pageData,m as default};

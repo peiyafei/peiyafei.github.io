@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app.99e343b5.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/06网络通讯/05_mingetty.md"}'),n={name:"CMD/06网络通讯/05_mingetty.md"};function r(o,s,c,_,i,m){return a(),e("div")}const f=t(n,[["render",r]]);export{d as __pageData,f as default};

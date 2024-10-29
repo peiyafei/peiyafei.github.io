@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"./chunks/framework.CGHvQLJz.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/35_modinfo.md","filePath":"CMD/08系统设置/35_modinfo.md"}'),a={name:"CMD/08系统设置/35_modinfo.md"};function n(r,s,_,c,d,i){return t(),o("div")}const p=e(a,[["render",n]]);export{f as __pageData,p as default};

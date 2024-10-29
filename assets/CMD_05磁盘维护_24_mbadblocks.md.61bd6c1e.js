@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.99e343b5.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/05磁盘维护/24_mbadblocks.md"}'),o={name:"CMD/05磁盘维护/24_mbadblocks.md"};function s(c,r,n,_,d,m){return a(),t("div")}const l=e(o,[["render",s]]);export{i as __pageData,l as default};

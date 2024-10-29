@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./chunks/framework.CGHvQLJz.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/08系统设置/38_sndconfig.md","filePath":"CMD/08系统设置/38_sndconfig.md"}'),o={name:"CMD/08系统设置/38_sndconfig.md"};function a(s,c,r,_,d,i){return n(),t("div")}const m=e(o,[["render",a]]);export{p as __pageData,m as default};

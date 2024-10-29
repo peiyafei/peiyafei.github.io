@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.CGHvQLJz.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"CMD/07系统管理/15_lastb.md","filePath":"CMD/07系统管理/15_lastb.md"}'),s={name:"CMD/07系统管理/15_lastb.md"};function r(o,_,c,n,l,p){return a(),e("div")}const m=t(s,[["render",r]]);export{i as __pageData,m as default};
