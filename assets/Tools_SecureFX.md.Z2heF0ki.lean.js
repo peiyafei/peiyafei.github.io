@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.CGHvQLJz.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Tools/SecureFX.md","filePath":"Tools/SecureFX.md"}'),r={name:"Tools/SecureFX.md"};function a(c,s,n,p,_,d){return o(),t("div")}const m=e(r,[["render",a]]);export{l as __pageData,m as default};
